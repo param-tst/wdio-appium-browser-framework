@@ -1,0 +1,41 @@
+2020-05-11T21:41:03.408Z INFO @wdio/local-runner: Run worker command: run
+2020-05-11T21:41:03.419Z DEBUG @wdio/local-runner:utils: init remote session
+2020-05-11T21:41:03.421Z INFO webdriverio: Initiate new session using the ./protocol-stub protocol
+2020-05-11T21:41:03.998Z DEBUG @wdio/utils:initialiseServices: initialise service "appium" as NPM package
+2020-05-11T21:41:04.007Z DEBUG @wdio/utils:initialiseServices: initialise service "selenium-standalone" as NPM package
+2020-05-11T21:41:04.219Z DEBUG @wdio/local-runner:utils: init remote session
+2020-05-11T21:41:04.222Z INFO webdriverio: Initiate new session using the webdriver protocol
+2020-05-11T21:41:04.224Z INFO webdriver: [POST] http://localhost:4723/session
+2020-05-11T21:41:04.224Z INFO webdriver: DATA {
+  capabilities: {
+    alwaysMatch: {
+      platformName: 'Android',
+      'appium:chromedriverExecutableDir': './apps',
+      'appium:deviceName': '468087f4',
+      'appium:platformVersion': '9',
+      'appium:orientation': 'PORTRAIT',
+      'appium:automationName': 'UiAutomator2',
+      'appium:app': 'C:\\Users\\Paramveer Singh\\automation\\appium-browser-framework\\apps\\Android-NativeDemoApp-0.2.1.apk',
+      'appium:noReset': true,
+      'appium:fullReset': false,
+      'appium:dontStopAppOnReset': true,
+      'appium:newCommandTimeout': 60
+    },
+    firstMatch: [ {} ]
+  },
+  desiredCapabilities: {
+    platformName: 'Android',
+    'appium:chromedriverExecutableDir': './apps',
+    'appium:deviceName': '468087f4',
+    'appium:platformVersion': '9',
+    'appium:orientation': 'PORTRAIT',
+    'appium:automationName': 'UiAutomator2',
+    'appium:app': 'C:\\Users\\Paramveer Singh\\automation\\appium-browser-framework\\apps\\Android-NativeDemoApp-0.2.1.apk',
+    'appium:noReset': true,
+    'appium:fullReset': false,
+    'appium:dontStopAppOnReset': true,
+    'appium:newCommandTimeout': 60
+  }
+}
+2020-05-11T21:41:06.151Z INFO @wdio/local-runner: Received SIGINT, giving process 5000ms to shutdown gracefully
+2020-05-11T21:41:06.154Z INFO @wdio/local-runner: Run worker command: endSession

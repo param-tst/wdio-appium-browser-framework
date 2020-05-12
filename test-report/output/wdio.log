@@ -1,0 +1,13 @@
+2020-05-12T05:12:43.386Z DEBUG @wdio/utils:initialiseServices: initialise service "appium" as NPM package
+2020-05-12T05:12:43.396Z DEBUG @wdio/utils:initialiseServices: initialise service "selenium-standalone" as NPM package
+2020-05-12T05:12:43.609Z INFO @wdio/cli:launcher: Run onPrepare hook
+2020-05-12T05:12:43.610Z DEBUG @wdio/appium-service: Will spawn Appium process: cmd /c node C:\Users\Paramveer Singh\automation\appium-browser-framework\node_modules\appium\build\lib\main.js --base-path /
+2020-05-12T05:12:46.104Z DEBUG @wdio/appium-service: Appium started with ID: 8884
+2020-05-12T05:12:46.105Z DEBUG @wdio/appium-service: Appium logs written to: C:\Users\Paramveer Singh\automation\appium-browser-framework\test-report\output\wdio-appium.log
+2020-05-12T05:12:48.281Z INFO @wdio/cli:launcher: Run onWorkerStart hook
+2020-05-12T05:12:48.292Z INFO @wdio/local-runner: Start worker 0-0 with arg: ./config/wdio.android.app.conf.js
+2020-05-12T05:13:42.547Z INFO @wdio/local-runner: Shutting down spawned worker
+2020-05-12T05:13:42.654Z DEBUG @wdio/local-runner: Runner 0-0 finished with exit code 1
+2020-05-12T05:13:42.656Z INFO @wdio/cli:launcher: Run onComplete hook
+2020-05-12T05:13:42.656Z DEBUG @wdio/appium-service: Appium (pid: 17596) killed
+2020-05-12T05:13:42.656Z INFO @wdio/selenium-standalone-service: shutting down all browsers

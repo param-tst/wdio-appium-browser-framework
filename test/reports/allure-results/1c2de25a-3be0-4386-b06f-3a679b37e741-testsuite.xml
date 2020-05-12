@@ -1,0 +1,84 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1589229375728' stop='1589229383240'>
+    <name>Performing a login: Performing login operation with passing test data as data table</name>
+    <title>Performing a login: Performing login operation with passing test data as data table</title>
+    <test-cases>
+        <test-case start='1589229375728' status='passed' stop='1589229375729'>
+            <name>Hook</name>
+            <title>Hook</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-81.0.4044.138'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1589229375730' status='broken' stop='1589229383236'>
+            <name>Given I am on the phptravels page</name>
+            <title>Given I am on the phptravels page</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-81.0.4044.138'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>browser.compareScreen is not a function</message>
+                <stack-trace>TypeError: browser.compareScreen is not a function
+                    at World.&lt;anonymous> (C:\Users\Paramveer Singh\automation\appium-browser-framework\test\stepDefinitions\/given.js:15:18)
+                    at World.executeSync (C:\Users\Paramveer Singh\automation\appium-browser-framework\node_modules\@wdio\sync\build\index.js:56:18)
+                    at C:\Users\Paramveer Singh\automation\appium-browser-framework\node_modules\@wdio\sync\build\index.js:82:70</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1589229383236' status='pending' stop='1589229383237'>
+            <name>When I login with username and password "user@phptravels.com" "demouser" into the text box</name>
+            <title>When I login with username and password "user@phptravels.com" "demouser" into the text box</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-81.0.4044.138'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1589229383237' status='pending' stop='1589229383237'>
+            <name>Then I should see the message "Hi, Demo User" on my account page</name>
+            <title>Then I should see the message "Hi, Demo User" on my account page</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-81.0.4044.138'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1589229383238' status='passed' stop='1589229383239'>
+            <name>Hook</name>
+            <title>Hook</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-81.0.4044.138'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="Performing_a_login" timestamp="2020-05-12T10:39:47" time="11.555" tests="1" failures="0" errors="1" skipped="0">
+    <properties>
+      <property name="specId" value="0"/>
+      <property name="featureName" value="Performing a login"/>
+      <property name="capabilities" value="468087f4.android.9"/>
+      <property name="featureFile" value=".\test\features\ta-login.feature"/>
+    </properties>
+    <testcase classname="CucumberJUnitReport-468087f4.android.9.Performing_a_login" name="Performing_a_login.Performing_login_operation_with_passing_test_data_as_data_table" time="11.533">
+      <error message="Image not found, copy your actual image: &#xA;'C:\Users\Paramveer Singh\automation\appium-browser-framework\.tmp\screenshots\actual\test-468087f4.png'&#xA;manually to your baseline or enable the option &#xA;'autoSaveBaseline: true'&#xA;and this module will do that automatically for you."/>
+      <system-out>
+        <![CDATA[
+❗ Given I am on the phptravels page
+⚠️ When I login with username and password "user@phptravels.com" "demouser" into the text box
+⚠️ Then I should see the message "Hi, Demo User" on my account page
+
+]]>
+      </system-out>
+      <system-err>
+        <![CDATA[
+Error: 
+    at Browser.runCommandWithHooks (C:\Users\Paramveer Singh\automation\appium-browser-framework\node_modules\@wdio\sync\build\wrapCommand.js:82:22)
+    at Browser.compareScreen (C:\Users\Paramveer Singh\automation\appium-browser-framework\node_modules\@wdio\sync\build\wrapCommand.js:59:40)
+    at Browser.compareScreen (C:\Users\Paramveer Singh\automation\appium-browser-framework\node_modules\webdriverio\node_modules\@wdio\utils\build\monad.js:119:27)
+    at World.<anonymous> (C:\Users\Paramveer Singh\automation\appium-browser-framework\test\stepDefinitions\/given.js:15:18)
+    at World.executeSync (C:\Users\Paramveer Singh\automation\appium-browser-framework\node_modules\@wdio\sync\build\index.js:56:18)
+    at C:\Users\Paramveer Singh\automation\appium-browser-framework\node_modules\@wdio\sync\build\index.js:82:70
+]]>
+      </system-err>
+    </testcase>
+  </testsuite>
+</testsuites>

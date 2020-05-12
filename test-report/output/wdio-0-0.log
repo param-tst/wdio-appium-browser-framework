@@ -1,0 +1,731 @@
+2020-05-12T05:12:48.990Z INFO @wdio/local-runner: Run worker command: run
+2020-05-12T05:12:49.000Z DEBUG @wdio/local-runner:utils: init remote session
+2020-05-12T05:12:49.003Z INFO webdriverio: Initiate new session using the ./protocol-stub protocol
+2020-05-12T05:12:49.670Z DEBUG @wdio/utils:initialiseServices: initialise service "appium" as NPM package
+2020-05-12T05:12:49.681Z DEBUG @wdio/utils:initialiseServices: initialise service "selenium-standalone" as NPM package
+2020-05-12T05:12:49.936Z DEBUG @wdio/local-runner:utils: init remote session
+2020-05-12T05:12:49.940Z INFO webdriverio: Initiate new session using the webdriver protocol
+2020-05-12T05:12:49.942Z INFO webdriver: [POST] http://localhost:4723/session
+2020-05-12T05:12:49.942Z INFO webdriver: DATA {
+  capabilities: {
+    alwaysMatch: {
+      platformName: 'Android',
+      'appium:chromedriverExecutableDir': './apps',
+      'appium:deviceName': '468087f4',
+      'appium:platformVersion': '9',
+      'appium:orientation': 'PORTRAIT',
+      'appium:automationName': 'UiAutomator2',
+      'appium:app': 'C:\\Users\\Paramveer Singh\\automation\\appium-browser-framework\\apps\\Android-NativeDemoApp-0.2.1.apk',
+      'appium:noReset': true,
+      'appium:fullReset': false,
+      'appium:dontStopAppOnReset': true,
+      'appium:newCommandTimeout': 60
+    },
+    firstMatch: [ {} ]
+  },
+  desiredCapabilities: {
+    platformName: 'Android',
+    'appium:chromedriverExecutableDir': './apps',
+    'appium:deviceName': '468087f4',
+    'appium:platformVersion': '9',
+    'appium:orientation': 'PORTRAIT',
+    'appium:automationName': 'UiAutomator2',
+    'appium:app': 'C:\\Users\\Paramveer Singh\\automation\\appium-browser-framework\\apps\\Android-NativeDemoApp-0.2.1.apk',
+    'appium:noReset': true,
+    'appium:fullReset': false,
+    'appium:dontStopAppOnReset': true,
+    'appium:newCommandTimeout': 60
+  }
+}
+2020-05-12T05:13:03.778Z INFO webdriver: COMMAND findElement("accessibility id", "<Screenshot[base64]>")
+2020-05-12T05:13:03.779Z INFO webdriver: [POST] http://localhost:4723/session/6b2078db-6fe1-46d9-9db2-c0206706f582/element
+2020-05-12T05:13:03.779Z INFO webdriver: DATA { using: 'accessibility id', value: 'Home' }
+2020-05-12T05:13:03.999Z INFO webdriver: RESULT {
+  'element-6066-11e4-a52e-4f735466cecf': '6362f431-148f-4063-b514-56695c6c9841',
+  ELEMENT: '6362f431-148f-4063-b514-56695c6c9841'
+}
+2020-05-12T05:13:04.009Z INFO webdriver: COMMAND isElementDisplayed("6362f431-148f-4063-b514-56695c6c9841")
+2020-05-12T05:13:04.010Z INFO webdriver: [GET] http://localhost:4723/session/6b2078db-6fe1-46d9-9db2-c0206706f582/element/6362f431-148f-4063-b514-56695c6c9841/displayed
+2020-05-12T05:13:04.096Z INFO webdriver: RESULT true
+2020-05-12T05:13:04.097Z INFO webdriver: COMMAND findElement("accessibility id", "Forms")
+2020-05-12T05:13:04.097Z INFO webdriver: [POST] http://localhost:4723/session/6b2078db-6fe1-46d9-9db2-c0206706f582/element
+2020-05-12T05:13:04.097Z INFO webdriver: DATA { using: 'accessibility id', value: 'Forms' }
+2020-05-12T05:13:04.276Z INFO webdriver: RESULT {
+  'element-6066-11e4-a52e-4f735466cecf': '7385028d-7d69-41e1-9cf4-ea3294cea26e',
+  ELEMENT: '7385028d-7d69-41e1-9cf4-ea3294cea26e'
+}
+2020-05-12T05:13:04.282Z INFO webdriver: COMMAND elementClick("7385028d-7d69-41e1-9cf4-ea3294cea26e")
+2020-05-12T05:13:04.282Z INFO webdriver: [POST] http://localhost:4723/session/6b2078db-6fe1-46d9-9db2-c0206706f582/element/7385028d-7d69-41e1-9cf4-ea3294cea26e/click
+2020-05-12T05:13:04.351Z INFO webdriver: COMMAND findElement("accessibility id", "Forms-screen")
+2020-05-12T05:13:04.352Z INFO webdriver: [POST] http://localhost:4723/session/6b2078db-6fe1-46d9-9db2-c0206706f582/element
+2020-05-12T05:13:04.352Z INFO webdriver: DATA { using: 'accessibility id', value: 'Forms-screen' }
+2020-05-12T05:13:04.473Z INFO webdriver: RESULT {
+  'element-6066-11e4-a52e-4f735466cecf': 'e0ecef6a-0300-4b0b-b89f-bcda10f0119e',
+  ELEMENT: 'e0ecef6a-0300-4b0b-b89f-bcda10f0119e'
+}
+2020-05-12T05:13:04.475Z INFO webdriver: COMMAND isElementDisplayed("e0ecef6a-0300-4b0b-b89f-bcda10f0119e")
+2020-05-12T05:13:04.475Z INFO webdriver: [GET] http://localhost:4723/session/6b2078db-6fe1-46d9-9db2-c0206706f582/element/e0ecef6a-0300-4b0b-b89f-bcda10f0119e/displayed
+2020-05-12T05:13:04.541Z INFO webdriver: RESULT true
+2020-05-12T05:13:04.543Z INFO webdriver: COMMAND findElement("accessibility id", "text-input")
+2020-05-12T05:13:04.543Z INFO webdriver: [POST] http://localhost:4723/session/6b2078db-6fe1-46d9-9db2-c0206706f582/element
+2020-05-12T05:13:04.543Z INFO webdriver: DATA { using: 'accessibility id', value: 'text-input' }
+2020-05-12T05:13:04.635Z INFO webdriver: RESULT {
+  'element-6066-11e4-a52e-4f735466cecf': '96e56c0f-6611-4276-965e-1cf2b731e2e8',
+  ELEMENT: '96e56c0f-6611-4276-965e-1cf2b731e2e8'
+}
+2020-05-12T05:13:04.639Z INFO webdriver: COMMAND elementClear("96e56c0f-6611-4276-965e-1cf2b731e2e8")
+2020-05-12T05:13:04.639Z INFO webdriver: [POST] http://localhost:4723/session/6b2078db-6fe1-46d9-9db2-c0206706f582/element/96e56c0f-6611-4276-965e-1cf2b731e2e8/clear
+2020-05-12T05:13:04.708Z INFO webdriver: COMMAND elementSendKeys("96e56c0f-6611-4276-965e-1cf2b731e2e8", "Text for the type test")
+2020-05-12T05:13:04.709Z INFO webdriver: [POST] http://localhost:4723/session/6b2078db-6fe1-46d9-9db2-c0206706f582/element/96e56c0f-6611-4276-965e-1cf2b731e2e8/value
+2020-05-12T05:13:04.709Z INFO webdriver: DATA { text: 'Text for the type test' }
+2020-05-12T05:13:05.765Z INFO webdriver: COMMAND findElement("accessibility id", "input-text-result")
+2020-05-12T05:13:05.765Z INFO webdriver: [POST] http://localhost:4723/session/6b2078db-6fe1-46d9-9db2-c0206706f582/element
+2020-05-12T05:13:05.765Z INFO webdriver: DATA { using: 'accessibility id', value: 'input-text-result' }
+2020-05-12T05:13:07.086Z INFO webdriver: RESULT {
+  'element-6066-11e4-a52e-4f735466cecf': '6c2e683c-4525-4bc3-bae1-1eef048b1b36',
+  ELEMENT: '6c2e683c-4525-4bc3-bae1-1eef048b1b36'
+}
+2020-05-12T05:13:07.088Z INFO webdriver: COMMAND getElementText("6c2e683c-4525-4bc3-bae1-1eef048b1b36")
+2020-05-12T05:13:07.088Z INFO webdriver: [GET] http://localhost:4723/session/6b2078db-6fe1-46d9-9db2-c0206706f582/element/6c2e683c-4525-4bc3-bae1-1eef048b1b36/text
+2020-05-12T05:13:07.140Z INFO webdriver: RESULT Text for the type test
+2020-05-12T05:13:07.141Z INFO webdriver: COMMAND isKeyboardShown()
+2020-05-12T05:13:07.141Z INFO webdriver: [GET] http://localhost:4723/session/6b2078db-6fe1-46d9-9db2-c0206706f582/appium/device/is_keyboard_shown
+2020-05-12T05:13:09.777Z INFO webdriver: RESULT false
+2020-05-12T05:13:09.785Z INFO webdriver: COMMAND findElement("accessibility id", "<Screenshot[base64]>")
+2020-05-12T05:13:09.786Z INFO webdriver: [POST] http://localhost:4723/session/6b2078db-6fe1-46d9-9db2-c0206706f582/element
+2020-05-12T05:13:09.786Z INFO webdriver: DATA { using: 'accessibility id', value: 'Home' }
+2020-05-12T05:13:09.913Z INFO webdriver: RESULT {
+  'element-6066-11e4-a52e-4f735466cecf': '0eaf45cd-0572-41cd-9319-64556a4be1c9',
+  ELEMENT: '0eaf45cd-0572-41cd-9319-64556a4be1c9'
+}
+2020-05-12T05:13:09.915Z INFO webdriver: COMMAND isElementDisplayed("0eaf45cd-0572-41cd-9319-64556a4be1c9")
+2020-05-12T05:13:09.916Z INFO webdriver: [GET] http://localhost:4723/session/6b2078db-6fe1-46d9-9db2-c0206706f582/element/0eaf45cd-0572-41cd-9319-64556a4be1c9/displayed
+2020-05-12T05:13:09.963Z INFO webdriver: RESULT true
+2020-05-12T05:13:09.963Z INFO webdriver: COMMAND findElement("accessibility id", "Forms")
+2020-05-12T05:13:09.963Z INFO webdriver: [POST] http://localhost:4723/session/6b2078db-6fe1-46d9-9db2-c0206706f582/element
+2020-05-12T05:13:09.963Z INFO webdriver: DATA { using: 'accessibility id', value: 'Forms' }
+2020-05-12T05:13:10.106Z INFO webdriver: RESULT {
+  'element-6066-11e4-a52e-4f735466cecf': '670f6ac6-1ff6-48e3-a51c-e4db99939520',
+  ELEMENT: '670f6ac6-1ff6-48e3-a51c-e4db99939520'
+}
+2020-05-12T05:13:10.109Z INFO webdriver: COMMAND elementClick("670f6ac6-1ff6-48e3-a51c-e4db99939520")
+2020-05-12T05:13:10.109Z INFO webdriver: [POST] http://localhost:4723/session/6b2078db-6fe1-46d9-9db2-c0206706f582/element/670f6ac6-1ff6-48e3-a51c-e4db99939520/click
+2020-05-12T05:13:10.182Z INFO webdriver: COMMAND findElement("accessibility id", "Forms-screen")
+2020-05-12T05:13:10.183Z INFO webdriver: [POST] http://localhost:4723/session/6b2078db-6fe1-46d9-9db2-c0206706f582/element
+2020-05-12T05:13:10.183Z INFO webdriver: DATA { using: 'accessibility id', value: 'Forms-screen' }
+2020-05-12T05:13:10.280Z INFO webdriver: RESULT {
+  'element-6066-11e4-a52e-4f735466cecf': '00bccfb6-61b0-478a-b5d7-96f1ab77658e',
+  ELEMENT: '00bccfb6-61b0-478a-b5d7-96f1ab77658e'
+}
+2020-05-12T05:13:10.284Z INFO webdriver: COMMAND isElementDisplayed("00bccfb6-61b0-478a-b5d7-96f1ab77658e")
+2020-05-12T05:13:10.284Z INFO webdriver: [GET] http://localhost:4723/session/6b2078db-6fe1-46d9-9db2-c0206706f582/element/00bccfb6-61b0-478a-b5d7-96f1ab77658e/displayed
+2020-05-12T05:13:10.343Z INFO webdriver: RESULT true
+2020-05-12T05:13:10.344Z INFO webdriver: COMMAND findElement("accessibility id", "switch")
+2020-05-12T05:13:10.344Z INFO webdriver: [POST] http://localhost:4723/session/6b2078db-6fe1-46d9-9db2-c0206706f582/element
+2020-05-12T05:13:10.344Z INFO webdriver: DATA { using: 'accessibility id', value: 'switch' }
+2020-05-12T05:13:10.425Z INFO webdriver: RESULT {
+  'element-6066-11e4-a52e-4f735466cecf': 'd0648457-5e51-445d-a8ff-f279126e5393',
+  ELEMENT: 'd0648457-5e51-445d-a8ff-f279126e5393'
+}
+2020-05-12T05:13:10.427Z INFO webdriver: COMMAND getElementText("d0648457-5e51-445d-a8ff-f279126e5393")
+2020-05-12T05:13:10.427Z INFO webdriver: [GET] http://localhost:4723/session/6b2078db-6fe1-46d9-9db2-c0206706f582/element/d0648457-5e51-445d-a8ff-f279126e5393/text
+2020-05-12T05:13:10.473Z INFO webdriver: RESULT OFF
+2020-05-12T05:13:10.474Z INFO webdriver: COMMAND findElement("accessibility id", "switch")
+2020-05-12T05:13:10.474Z INFO webdriver: [POST] http://localhost:4723/session/6b2078db-6fe1-46d9-9db2-c0206706f582/element
+2020-05-12T05:13:10.474Z INFO webdriver: DATA { using: 'accessibility id', value: 'switch' }
+2020-05-12T05:13:10.543Z INFO webdriver: RESULT {
+  'element-6066-11e4-a52e-4f735466cecf': '937d175d-09c9-4914-9cc0-0e0a483a4038',
+  ELEMENT: '937d175d-09c9-4914-9cc0-0e0a483a4038'
+}
+2020-05-12T05:13:10.544Z INFO webdriver: COMMAND elementClick("937d175d-09c9-4914-9cc0-0e0a483a4038")
+2020-05-12T05:13:10.545Z INFO webdriver: [POST] http://localhost:4723/session/6b2078db-6fe1-46d9-9db2-c0206706f582/element/937d175d-09c9-4914-9cc0-0e0a483a4038/click
+2020-05-12T05:13:10.606Z INFO webdriver: COMMAND findElement("accessibility id", "switch")
+2020-05-12T05:13:10.607Z INFO webdriver: [POST] http://localhost:4723/session/6b2078db-6fe1-46d9-9db2-c0206706f582/element
+2020-05-12T05:13:10.607Z INFO webdriver: DATA { using: 'accessibility id', value: 'switch' }
+2020-05-12T05:13:11.261Z INFO webdriver: RESULT {
+  'element-6066-11e4-a52e-4f735466cecf': '1ef96d6e-5b1d-4029-b3ad-f39e89ada3b7',
+  ELEMENT: '1ef96d6e-5b1d-4029-b3ad-f39e89ada3b7'
+}
+2020-05-12T05:13:11.262Z INFO webdriver: COMMAND getElementText("1ef96d6e-5b1d-4029-b3ad-f39e89ada3b7")
+2020-05-12T05:13:11.262Z INFO webdriver: [GET] http://localhost:4723/session/6b2078db-6fe1-46d9-9db2-c0206706f582/element/1ef96d6e-5b1d-4029-b3ad-f39e89ada3b7/text
+2020-05-12T05:13:11.311Z INFO webdriver: RESULT ON
+2020-05-12T05:13:11.313Z INFO webdriver: COMMAND findElement("accessibility id", "<Screenshot[base64]>")
+2020-05-12T05:13:11.313Z INFO webdriver: [POST] http://localhost:4723/session/6b2078db-6fe1-46d9-9db2-c0206706f582/element
+2020-05-12T05:13:11.313Z INFO webdriver: DATA { using: 'accessibility id', value: 'Home' }
+2020-05-12T05:13:11.405Z INFO webdriver: RESULT {
+  'element-6066-11e4-a52e-4f735466cecf': 'cba53985-2846-4934-984c-a8399142cd48',
+  ELEMENT: 'cba53985-2846-4934-984c-a8399142cd48'
+}
+2020-05-12T05:13:11.406Z INFO webdriver: COMMAND isElementDisplayed("cba53985-2846-4934-984c-a8399142cd48")
+2020-05-12T05:13:11.407Z INFO webdriver: [GET] http://localhost:4723/session/6b2078db-6fe1-46d9-9db2-c0206706f582/element/cba53985-2846-4934-984c-a8399142cd48/displayed
+2020-05-12T05:13:11.456Z INFO webdriver: RESULT true
+2020-05-12T05:13:11.456Z INFO webdriver: COMMAND findElement("accessibility id", "Forms")
+2020-05-12T05:13:11.456Z INFO webdriver: [POST] http://localhost:4723/session/6b2078db-6fe1-46d9-9db2-c0206706f582/element
+2020-05-12T05:13:11.456Z INFO webdriver: DATA { using: 'accessibility id', value: 'Forms' }
+2020-05-12T05:13:11.566Z INFO webdriver: RESULT {
+  'element-6066-11e4-a52e-4f735466cecf': 'a5645bb7-977b-4973-8060-b02e2c4d980b',
+  ELEMENT: 'a5645bb7-977b-4973-8060-b02e2c4d980b'
+}
+2020-05-12T05:13:11.568Z INFO webdriver: COMMAND elementClick("a5645bb7-977b-4973-8060-b02e2c4d980b")
+2020-05-12T05:13:11.569Z INFO webdriver: [POST] http://localhost:4723/session/6b2078db-6fe1-46d9-9db2-c0206706f582/element/a5645bb7-977b-4973-8060-b02e2c4d980b/click
+2020-05-12T05:13:11.637Z INFO webdriver: COMMAND findElement("accessibility id", "Forms-screen")
+2020-05-12T05:13:11.637Z INFO webdriver: [POST] http://localhost:4723/session/6b2078db-6fe1-46d9-9db2-c0206706f582/element
+2020-05-12T05:13:11.638Z INFO webdriver: DATA { using: 'accessibility id', value: 'Forms-screen' }
+2020-05-12T05:13:11.716Z INFO webdriver: RESULT {
+  'element-6066-11e4-a52e-4f735466cecf': '0fec30e2-dd03-4566-a475-afdbde5f9e79',
+  ELEMENT: '0fec30e2-dd03-4566-a475-afdbde5f9e79'
+}
+2020-05-12T05:13:11.719Z INFO webdriver: COMMAND isElementDisplayed("0fec30e2-dd03-4566-a475-afdbde5f9e79")
+2020-05-12T05:13:11.719Z INFO webdriver: [GET] http://localhost:4723/session/6b2078db-6fe1-46d9-9db2-c0206706f582/element/0fec30e2-dd03-4566-a475-afdbde5f9e79/displayed
+2020-05-12T05:13:11.760Z INFO webdriver: RESULT true
+2020-05-12T05:13:11.761Z INFO webdriver: COMMAND findElement("accessibility id", "select-Dropdown")
+2020-05-12T05:13:11.762Z INFO webdriver: [POST] http://localhost:4723/session/6b2078db-6fe1-46d9-9db2-c0206706f582/element
+2020-05-12T05:13:11.762Z INFO webdriver: DATA { using: 'accessibility id', value: 'select-Dropdown' }
+2020-05-12T05:13:11.832Z INFO webdriver: RESULT {
+  'element-6066-11e4-a52e-4f735466cecf': 'f5bcca21-b5db-45d1-ad54-d045e5c49d25',
+  ELEMENT: 'f5bcca21-b5db-45d1-ad54-d045e5c49d25'
+}
+2020-05-12T05:13:11.833Z INFO webdriver: COMMAND elementClick("f5bcca21-b5db-45d1-ad54-d045e5c49d25")
+2020-05-12T05:13:11.834Z INFO webdriver: [POST] http://localhost:4723/session/6b2078db-6fe1-46d9-9db2-c0206706f582/element/f5bcca21-b5db-45d1-ad54-d045e5c49d25/click
+2020-05-12T05:13:11.907Z INFO webdriver: COMMAND findElement("xpath", "//android.widget.ListView")
+2020-05-12T05:13:11.907Z INFO webdriver: [POST] http://localhost:4723/session/6b2078db-6fe1-46d9-9db2-c0206706f582/element
+2020-05-12T05:13:11.907Z INFO webdriver: DATA { using: 'xpath', value: '//android.widget.ListView' }
+2020-05-12T05:13:12.498Z INFO webdriver: RESULT {
+  'element-6066-11e4-a52e-4f735466cecf': '61d34c13-720e-4944-ae7a-a32e66b6881b',
+  ELEMENT: '61d34c13-720e-4944-ae7a-a32e66b6881b'
+}
+2020-05-12T05:13:12.501Z INFO webdriver: COMMAND findElements("xpath", "//android.widget.ListView")
+2020-05-12T05:13:12.501Z INFO webdriver: [POST] http://localhost:4723/session/6b2078db-6fe1-46d9-9db2-c0206706f582/elements
+2020-05-12T05:13:12.501Z INFO webdriver: DATA { using: 'xpath', value: '//android.widget.ListView' }
+2020-05-12T05:13:13.116Z INFO webdriver: RESULT [
+  {
+    'element-6066-11e4-a52e-4f735466cecf': 'eb731d3d-81b3-48c2-95da-fa66cd4e7c8e',
+    ELEMENT: 'eb731d3d-81b3-48c2-95da-fa66cd4e7c8e'
+  }
+]
+2020-05-12T05:13:13.121Z INFO webdriver: COMMAND findElement("xpath", "//android.widget.ListView/*[@text='This app is awesome']")
+2020-05-12T05:13:13.121Z INFO webdriver: [POST] http://localhost:4723/session/6b2078db-6fe1-46d9-9db2-c0206706f582/element
+2020-05-12T05:13:13.121Z INFO webdriver: DATA {
+  using: 'xpath',
+  value: "//android.widget.ListView/*[@text='This app is awesome']"
+}
+2020-05-12T05:13:13.351Z INFO webdriver: RESULT {
+  'element-6066-11e4-a52e-4f735466cecf': '69ceae10-bad9-4520-98e9-459caa3a74fe',
+  ELEMENT: '69ceae10-bad9-4520-98e9-459caa3a74fe'
+}
+2020-05-12T05:13:13.354Z INFO webdriver: COMMAND elementClick("69ceae10-bad9-4520-98e9-459caa3a74fe")
+2020-05-12T05:13:13.354Z INFO webdriver: [POST] http://localhost:4723/session/6b2078db-6fe1-46d9-9db2-c0206706f582/element/69ceae10-bad9-4520-98e9-459caa3a74fe/click
+2020-05-12T05:13:14.067Z INFO webdriver: COMMAND findElement("xpath", "//android.widget.ListView")
+2020-05-12T05:13:14.067Z INFO webdriver: [POST] http://localhost:4723/session/6b2078db-6fe1-46d9-9db2-c0206706f582/element
+2020-05-12T05:13:14.067Z INFO webdriver: DATA { using: 'xpath', value: '//android.widget.ListView' }
+2020-05-12T05:13:14.921Z INFO webdriver: RESULT {
+  error: 'no such element',
+  message: 'An element could not be located on the page using the given search parameters.',
+  stacktrace: 'NoSuchElementError: An element could not be located on the page using the given search parameters.\n' +
+    '    at AndroidUiautomator2Driver.findElOrEls (C:\\Users\\Paramveer Singh\\automation\\appium-browser-framework\\node_modules\\appium-android-driver\\lib\\commands\\find.js:75:11)\n' +
+    '    at runMicrotasks (<anonymous>)\n' +
+    '    at processTicksAndRejections (internal/process/task_queues.js:97:5)'
+}
+2020-05-12T05:13:14.927Z INFO webdriver: COMMAND findElements("xpath", "//android.widget.ListView")
+2020-05-12T05:13:14.927Z INFO webdriver: [POST] http://localhost:4723/session/6b2078db-6fe1-46d9-9db2-c0206706f582/elements
+2020-05-12T05:13:14.927Z INFO webdriver: DATA { using: 'xpath', value: '//android.widget.ListView' }
+2020-05-12T05:13:15.560Z INFO webdriver: RESULT []
+2020-05-12T05:13:15.563Z INFO webdriver: COMMAND findElements("xpath", "//android.widget.ListView")
+2020-05-12T05:13:15.563Z INFO webdriver: [POST] http://localhost:4723/session/6b2078db-6fe1-46d9-9db2-c0206706f582/elements
+2020-05-12T05:13:15.563Z INFO webdriver: DATA { using: 'xpath', value: '//android.widget.ListView' }
+2020-05-12T05:13:16.111Z INFO webdriver: RESULT []
+2020-05-12T05:13:16.114Z INFO webdriver: COMMAND findElements("xpath", "//android.widget.ListView")
+2020-05-12T05:13:16.114Z INFO webdriver: [POST] http://localhost:4723/session/6b2078db-6fe1-46d9-9db2-c0206706f582/elements
+2020-05-12T05:13:16.114Z INFO webdriver: DATA { using: 'xpath', value: '//android.widget.ListView' }
+2020-05-12T05:13:16.867Z INFO webdriver: RESULT []
+2020-05-12T05:13:16.869Z INFO webdriver: COMMAND findElements("xpath", "//android.widget.ListView")
+2020-05-12T05:13:16.869Z INFO webdriver: [POST] http://localhost:4723/session/6b2078db-6fe1-46d9-9db2-c0206706f582/elements
+2020-05-12T05:13:16.869Z INFO webdriver: DATA { using: 'xpath', value: '//android.widget.ListView' }
+2020-05-12T05:13:17.653Z INFO webdriver: RESULT []
+2020-05-12T05:13:17.657Z INFO webdriver: COMMAND findElements("xpath", "//android.widget.ListView")
+2020-05-12T05:13:17.657Z INFO webdriver: [POST] http://localhost:4723/session/6b2078db-6fe1-46d9-9db2-c0206706f582/elements
+2020-05-12T05:13:17.657Z INFO webdriver: DATA { using: 'xpath', value: '//android.widget.ListView' }
+2020-05-12T05:13:18.137Z INFO webdriver: RESULT []
+2020-05-12T05:13:18.140Z INFO webdriver: COMMAND findElements("xpath", "//android.widget.ListView")
+2020-05-12T05:13:18.140Z INFO webdriver: [POST] http://localhost:4723/session/6b2078db-6fe1-46d9-9db2-c0206706f582/elements
+2020-05-12T05:13:18.140Z INFO webdriver: DATA { using: 'xpath', value: '//android.widget.ListView' }
+2020-05-12T05:13:18.646Z INFO webdriver: RESULT []
+2020-05-12T05:13:18.648Z INFO webdriver: COMMAND findElements("xpath", "//android.widget.ListView")
+2020-05-12T05:13:18.649Z INFO webdriver: [POST] http://localhost:4723/session/6b2078db-6fe1-46d9-9db2-c0206706f582/elements
+2020-05-12T05:13:18.649Z INFO webdriver: DATA { using: 'xpath', value: '//android.widget.ListView' }
+2020-05-12T05:13:19.636Z INFO webdriver: RESULT []
+2020-05-12T05:13:19.638Z INFO webdriver: COMMAND findElements("xpath", "//android.widget.ListView")
+2020-05-12T05:13:19.638Z INFO webdriver: [POST] http://localhost:4723/session/6b2078db-6fe1-46d9-9db2-c0206706f582/elements
+2020-05-12T05:13:19.638Z INFO webdriver: DATA { using: 'xpath', value: '//android.widget.ListView' }
+2020-05-12T05:13:20.049Z INFO webdriver: RESULT []
+2020-05-12T05:13:20.051Z INFO webdriver: COMMAND findElements("xpath", "//android.widget.ListView")
+2020-05-12T05:13:20.051Z INFO webdriver: [POST] http://localhost:4723/session/6b2078db-6fe1-46d9-9db2-c0206706f582/elements
+2020-05-12T05:13:20.051Z INFO webdriver: DATA { using: 'xpath', value: '//android.widget.ListView' }
+2020-05-12T05:13:20.467Z INFO webdriver: RESULT []
+2020-05-12T05:13:20.469Z INFO webdriver: COMMAND findElements("xpath", "//android.widget.ListView")
+2020-05-12T05:13:20.469Z INFO webdriver: [POST] http://localhost:4723/session/6b2078db-6fe1-46d9-9db2-c0206706f582/elements
+2020-05-12T05:13:20.469Z INFO webdriver: DATA { using: 'xpath', value: '//android.widget.ListView' }
+2020-05-12T05:13:20.931Z INFO webdriver: COMMAND takeScreenshot()
+2020-05-12T05:13:20.931Z INFO webdriver: [GET] http://localhost:4723/session/6b2078db-6fe1-46d9-9db2-c0206706f582/screenshot
+2020-05-12T05:13:20.934Z INFO webdriver: RESULT []
+2020-05-12T05:13:21.830Z INFO webdriver: RESULT iVBORw0KGgoAAAANSUhEUgAABDgAAAeACAYAAAArYecKAAAABHNCSVQICAgIf...
+2020-05-12T05:13:21.836Z INFO webdriver: COMMAND findElement("accessibility id", "<Screenshot[base64]>")
+2020-05-12T05:13:21.836Z INFO webdriver: [POST] http://localhost:4723/session/6b2078db-6fe1-46d9-9db2-c0206706f582/element
+2020-05-12T05:13:21.837Z INFO webdriver: DATA { using: 'accessibility id', value: 'Home' }
+2020-05-12T05:13:22.075Z INFO webdriver: RESULT {
+  'element-6066-11e4-a52e-4f735466cecf': 'ca95ffcf-144a-4c65-bcd0-4f4012e059a8',
+  ELEMENT: 'ca95ffcf-144a-4c65-bcd0-4f4012e059a8'
+}
+2020-05-12T05:13:22.077Z INFO webdriver: COMMAND isElementDisplayed("ca95ffcf-144a-4c65-bcd0-4f4012e059a8")
+2020-05-12T05:13:22.077Z INFO webdriver: [GET] http://localhost:4723/session/6b2078db-6fe1-46d9-9db2-c0206706f582/element/ca95ffcf-144a-4c65-bcd0-4f4012e059a8/displayed
+2020-05-12T05:13:22.111Z INFO webdriver: RESULT true
+2020-05-12T05:13:22.111Z INFO webdriver: COMMAND findElement("accessibility id", "Forms")
+2020-05-12T05:13:22.112Z INFO webdriver: [POST] http://localhost:4723/session/6b2078db-6fe1-46d9-9db2-c0206706f582/element
+2020-05-12T05:13:22.112Z INFO webdriver: DATA { using: 'accessibility id', value: 'Forms' }
+2020-05-12T05:13:22.210Z INFO webdriver: RESULT {
+  'element-6066-11e4-a52e-4f735466cecf': 'f2386e9e-085e-470b-839e-7897e415d1f7',
+  ELEMENT: 'f2386e9e-085e-470b-839e-7897e415d1f7'
+}
+2020-05-12T05:13:22.212Z INFO webdriver: COMMAND elementClick("f2386e9e-085e-470b-839e-7897e415d1f7")
+2020-05-12T05:13:22.212Z INFO webdriver: [POST] http://localhost:4723/session/6b2078db-6fe1-46d9-9db2-c0206706f582/element/f2386e9e-085e-470b-839e-7897e415d1f7/click
+2020-05-12T05:13:22.282Z INFO webdriver: COMMAND findElement("accessibility id", "Forms-screen")
+2020-05-12T05:13:22.283Z INFO webdriver: [POST] http://localhost:4723/session/6b2078db-6fe1-46d9-9db2-c0206706f582/element
+2020-05-12T05:13:22.283Z INFO webdriver: DATA { using: 'accessibility id', value: 'Forms-screen' }
+2020-05-12T05:13:22.369Z INFO webdriver: RESULT {
+  'element-6066-11e4-a52e-4f735466cecf': 'bb2a437c-b1bc-4a40-b994-a10a7d6ace4e',
+  ELEMENT: 'bb2a437c-b1bc-4a40-b994-a10a7d6ace4e'
+}
+2020-05-12T05:13:22.373Z INFO webdriver: COMMAND isElementDisplayed("bb2a437c-b1bc-4a40-b994-a10a7d6ace4e")
+2020-05-12T05:13:22.373Z INFO webdriver: [GET] http://localhost:4723/session/6b2078db-6fe1-46d9-9db2-c0206706f582/element/bb2a437c-b1bc-4a40-b994-a10a7d6ace4e/displayed
+2020-05-12T05:13:22.412Z INFO webdriver: RESULT true
+2020-05-12T05:13:22.412Z INFO webdriver: COMMAND findElement("accessibility id", "button-Active")
+2020-05-12T05:13:22.413Z INFO webdriver: [POST] http://localhost:4723/session/6b2078db-6fe1-46d9-9db2-c0206706f582/element
+2020-05-12T05:13:22.413Z INFO webdriver: DATA { using: 'accessibility id', value: 'button-Active' }
+2020-05-12T05:13:22.570Z INFO webdriver: RESULT {
+  error: 'no such element',
+  message: 'An element could not be located on the page using the given search parameters.',
+  stacktrace: 'NoSuchElementError: An element could not be located on the page using the given search parameters.\n' +
+    '    at AndroidUiautomator2Driver.findElOrEls (C:\\Users\\Paramveer Singh\\automation\\appium-browser-framework\\node_modules\\appium-android-driver\\lib\\commands\\find.js:75:11)\n' +
+    '    at runMicrotasks (<anonymous>)\n' +
+    '    at processTicksAndRejections (internal/process/task_queues.js:97:5)'
+}
+2020-05-12T05:13:22.573Z INFO webdriver: COMMAND findElements("accessibility id", "button-Active")
+2020-05-12T05:13:22.573Z INFO webdriver: [POST] http://localhost:4723/session/6b2078db-6fe1-46d9-9db2-c0206706f582/elements
+2020-05-12T05:13:22.573Z INFO webdriver: DATA { using: 'accessibility id', value: 'button-Active' }
+2020-05-12T05:13:22.741Z INFO webdriver: RESULT []
+2020-05-12T05:13:22.743Z INFO webdriver: COMMAND getWindowRect()
+2020-05-12T05:13:22.743Z INFO webdriver: [GET] http://localhost:4723/session/6b2078db-6fe1-46d9-9db2-c0206706f582/window/rect
+2020-05-12T05:13:22.799Z INFO webdriver: RESULT { width: 1080, height: 1920, x: 0, y: 0 }
+2020-05-12T05:13:22.799Z INFO webdriver: COMMAND touchPerform(<object>)
+2020-05-12T05:13:22.800Z INFO webdriver: [POST] http://localhost:4723/session/6b2078db-6fe1-46d9-9db2-c0206706f582/touch/perform
+2020-05-12T05:13:22.800Z INFO webdriver: DATA {
+  actions: [
+    { action: 'press', options: [Object] },
+    { action: 'wait', options: [Object] },
+    { action: 'moveTo', options: [Object] },
+    { action: 'release' }
+  ]
+}
+2020-05-12T05:13:25.230Z INFO webdriver: COMMAND findElements("accessibility id", "button-Active")
+2020-05-12T05:13:25.230Z INFO webdriver: [POST] http://localhost:4723/session/6b2078db-6fe1-46d9-9db2-c0206706f582/elements
+2020-05-12T05:13:25.230Z INFO webdriver: DATA { using: 'accessibility id', value: 'button-Active' }
+2020-05-12T05:13:25.351Z INFO webdriver: RESULT [
+  {
+    'element-6066-11e4-a52e-4f735466cecf': 'b7a17d76-f97a-4e88-b091-a8b1de5792ed',
+    ELEMENT: 'b7a17d76-f97a-4e88-b091-a8b1de5792ed'
+  }
+]
+2020-05-12T05:13:25.354Z INFO webdriver: COMMAND findElement("accessibility id", "button-Active")
+2020-05-12T05:13:25.354Z INFO webdriver: [POST] http://localhost:4723/session/6b2078db-6fe1-46d9-9db2-c0206706f582/element
+2020-05-12T05:13:25.354Z INFO webdriver: DATA { using: 'accessibility id', value: 'button-Active' }
+2020-05-12T05:13:25.425Z INFO webdriver: RESULT {
+  'element-6066-11e4-a52e-4f735466cecf': '2f473a27-5027-4544-9fbf-60a65a59f34d',
+  ELEMENT: '2f473a27-5027-4544-9fbf-60a65a59f34d'
+}
+2020-05-12T05:13:25.427Z INFO webdriver: COMMAND isElementDisplayed("2f473a27-5027-4544-9fbf-60a65a59f34d")
+2020-05-12T05:13:25.427Z INFO webdriver: [GET] http://localhost:4723/session/6b2078db-6fe1-46d9-9db2-c0206706f582/element/2f473a27-5027-4544-9fbf-60a65a59f34d/displayed
+2020-05-12T05:13:25.466Z INFO webdriver: RESULT true
+2020-05-12T05:13:25.466Z INFO webdriver: COMMAND findElement("accessibility id", "button-Active")
+2020-05-12T05:13:25.466Z INFO webdriver: [POST] http://localhost:4723/session/6b2078db-6fe1-46d9-9db2-c0206706f582/element
+2020-05-12T05:13:25.466Z INFO webdriver: DATA { using: 'accessibility id', value: 'button-Active' }
+2020-05-12T05:13:25.518Z INFO webdriver: RESULT {
+  'element-6066-11e4-a52e-4f735466cecf': 'f20fab6b-5ab9-49bc-8e98-2cfe058b655f',
+  ELEMENT: 'f20fab6b-5ab9-49bc-8e98-2cfe058b655f'
+}
+2020-05-12T05:13:25.523Z INFO webdriver: COMMAND elementClick("f20fab6b-5ab9-49bc-8e98-2cfe058b655f")
+2020-05-12T05:13:25.524Z INFO webdriver: [POST] http://localhost:4723/session/6b2078db-6fe1-46d9-9db2-c0206706f582/element/f20fab6b-5ab9-49bc-8e98-2cfe058b655f/click
+2020-05-12T05:13:25.587Z INFO webdriver: COMMAND findElement("xpath", "*//android.widget.TextView[@resource-id="android:id/alertTitle"]")
+2020-05-12T05:13:25.587Z INFO webdriver: [POST] http://localhost:4723/session/6b2078db-6fe1-46d9-9db2-c0206706f582/element
+2020-05-12T05:13:25.587Z INFO webdriver: DATA {
+  using: 'xpath',
+  value: '*//android.widget.TextView[@resource-id="android:id/alertTitle"]'
+}
+2020-05-12T05:13:25.760Z INFO webdriver: RESULT {
+  error: 'no such element',
+  message: 'An element could not be located on the page using the given search parameters.',
+  stacktrace: 'NoSuchElementError: An element could not be located on the page using the given search parameters.\n' +
+    '    at AndroidUiautomator2Driver.findElOrEls (C:\\Users\\Paramveer Singh\\automation\\appium-browser-framework\\node_modules\\appium-android-driver\\lib\\commands\\find.js:75:11)\n' +
+    '    at runMicrotasks (<anonymous>)\n' +
+    '    at processTicksAndRejections (internal/process/task_queues.js:97:5)'
+}
+2020-05-12T05:13:25.761Z INFO webdriver: COMMAND findElements("xpath", "*//android.widget.TextView[@resource-id="android:id/alertTitle"]")
+2020-05-12T05:13:25.761Z INFO webdriver: [POST] http://localhost:4723/session/6b2078db-6fe1-46d9-9db2-c0206706f582/elements
+2020-05-12T05:13:25.761Z INFO webdriver: DATA {
+  using: 'xpath',
+  value: '*//android.widget.TextView[@resource-id="android:id/alertTitle"]'
+}
+2020-05-12T05:13:26.338Z INFO webdriver: RESULT [
+  {
+    'element-6066-11e4-a52e-4f735466cecf': '8192befd-bf28-4a52-bd58-f373b5120556',
+    ELEMENT: '8192befd-bf28-4a52-bd58-f373b5120556'
+  }
+]
+2020-05-12T05:13:26.340Z INFO webdriver: COMMAND findElement("xpath", "*//android.widget.TextView[@resource-id="android:id/alertTitle"]")
+2020-05-12T05:13:26.340Z INFO webdriver: [POST] http://localhost:4723/session/6b2078db-6fe1-46d9-9db2-c0206706f582/element
+2020-05-12T05:13:26.340Z INFO webdriver: DATA {
+  using: 'xpath',
+  value: '*//android.widget.TextView[@resource-id="android:id/alertTitle"]'
+}
+2020-05-12T05:13:26.505Z INFO webdriver: RESULT {
+  'element-6066-11e4-a52e-4f735466cecf': '679f1e48-91ff-462b-9567-a9bfcac05bb4',
+  ELEMENT: '679f1e48-91ff-462b-9567-a9bfcac05bb4'
+}
+2020-05-12T05:13:26.508Z INFO webdriver: COMMAND getElementText("679f1e48-91ff-462b-9567-a9bfcac05bb4")
+2020-05-12T05:13:26.508Z INFO webdriver: [GET] http://localhost:4723/session/6b2078db-6fe1-46d9-9db2-c0206706f582/element/679f1e48-91ff-462b-9567-a9bfcac05bb4/text
+2020-05-12T05:13:26.544Z INFO webdriver: RESULT This button is
+2020-05-12T05:13:26.544Z INFO webdriver: COMMAND findElement("xpath", "*//android.widget.TextView[@resource-id="android:id/message"]")
+2020-05-12T05:13:26.544Z INFO webdriver: [POST] http://localhost:4723/session/6b2078db-6fe1-46d9-9db2-c0206706f582/element
+2020-05-12T05:13:26.544Z INFO webdriver: DATA {
+  using: 'xpath',
+  value: '*//android.widget.TextView[@resource-id="android:id/message"]'
+}
+2020-05-12T05:13:26.689Z INFO webdriver: RESULT {
+  'element-6066-11e4-a52e-4f735466cecf': '419c9c82-a760-4800-85bf-2d45e6790c3f',
+  ELEMENT: '419c9c82-a760-4800-85bf-2d45e6790c3f'
+}
+2020-05-12T05:13:26.691Z INFO webdriver: COMMAND getElementText("419c9c82-a760-4800-85bf-2d45e6790c3f")
+2020-05-12T05:13:26.691Z INFO webdriver: [GET] http://localhost:4723/session/6b2078db-6fe1-46d9-9db2-c0206706f582/element/419c9c82-a760-4800-85bf-2d45e6790c3f/text
+2020-05-12T05:13:26.730Z INFO webdriver: RESULT This button is active
+2020-05-12T05:13:26.731Z INFO webdriver: COMMAND findElement("xpath", "*//android.widget.Button[@text="ASK ME LATER"]")
+2020-05-12T05:13:26.731Z INFO webdriver: [POST] http://localhost:4723/session/6b2078db-6fe1-46d9-9db2-c0206706f582/element
+2020-05-12T05:13:26.731Z INFO webdriver: DATA {
+  using: 'xpath',
+  value: '*//android.widget.Button[@text="ASK ME LATER"]'
+}
+2020-05-12T05:13:27.027Z INFO webdriver: RESULT {
+  'element-6066-11e4-a52e-4f735466cecf': '867dcb77-c413-408c-b237-5a4b3a19434e',
+  ELEMENT: '867dcb77-c413-408c-b237-5a4b3a19434e'
+}
+2020-05-12T05:13:27.029Z INFO webdriver: COMMAND elementClick("867dcb77-c413-408c-b237-5a4b3a19434e")
+2020-05-12T05:13:27.029Z INFO webdriver: [POST] http://localhost:4723/session/6b2078db-6fe1-46d9-9db2-c0206706f582/element/867dcb77-c413-408c-b237-5a4b3a19434e/click
+2020-05-12T05:13:33.673Z INFO webdriver: COMMAND findElement("xpath", "*//android.widget.TextView[@resource-id="android:id/alertTitle"]")
+2020-05-12T05:13:33.673Z INFO webdriver: [POST] http://localhost:4723/session/6b2078db-6fe1-46d9-9db2-c0206706f582/element
+2020-05-12T05:13:33.673Z INFO webdriver: DATA {
+  using: 'xpath',
+  value: '*//android.widget.TextView[@resource-id="android:id/alertTitle"]'
+}
+2020-05-12T05:13:34.090Z INFO webdriver: RESULT {
+  error: 'no such element',
+  message: 'An element could not be located on the page using the given search parameters.',
+  stacktrace: 'NoSuchElementError: An element could not be located on the page using the given search parameters.\n' +
+    '    at AndroidUiautomator2Driver.findElOrEls (C:\\Users\\Paramveer Singh\\automation\\appium-browser-framework\\node_modules\\appium-android-driver\\lib\\commands\\find.js:75:11)\n' +
+    '    at runMicrotasks (<anonymous>)\n' +
+    '    at processTicksAndRejections (internal/process/task_queues.js:97:5)'
+}
+2020-05-12T05:13:34.091Z INFO webdriver: COMMAND findElement("xpath", "*//android.widget.TextView[@resource-id="android:id/alertTitle"]")
+2020-05-12T05:13:34.091Z INFO webdriver: [POST] http://localhost:4723/session/6b2078db-6fe1-46d9-9db2-c0206706f582/element
+2020-05-12T05:13:34.091Z INFO webdriver: DATA {
+  using: 'xpath',
+  value: '*//android.widget.TextView[@resource-id="android:id/alertTitle"]'
+}
+2020-05-12T05:13:34.523Z INFO webdriver: RESULT {
+  error: 'no such element',
+  message: 'An element could not be located on the page using the given search parameters.',
+  stacktrace: 'NoSuchElementError: An element could not be located on the page using the given search parameters.\n' +
+    '    at AndroidUiautomator2Driver.findElOrEls (C:\\Users\\Paramveer Singh\\automation\\appium-browser-framework\\node_modules\\appium-android-driver\\lib\\commands\\find.js:75:11)\n' +
+    '    at runMicrotasks (<anonymous>)\n' +
+    '    at processTicksAndRejections (internal/process/task_queues.js:97:5)'
+}
+2020-05-12T05:13:34.527Z INFO webdriver: COMMAND findElement("accessibility id", "<Screenshot[base64]>")
+2020-05-12T05:13:34.528Z INFO webdriver: [POST] http://localhost:4723/session/6b2078db-6fe1-46d9-9db2-c0206706f582/element
+2020-05-12T05:13:34.528Z INFO webdriver: DATA { using: 'accessibility id', value: 'Home' }
+2020-05-12T05:13:34.591Z INFO webdriver: RESULT {
+  'element-6066-11e4-a52e-4f735466cecf': '498719e0-ef4f-4c15-a941-8d93643456ec',
+  ELEMENT: '498719e0-ef4f-4c15-a941-8d93643456ec'
+}
+2020-05-12T05:13:34.593Z INFO webdriver: COMMAND isElementDisplayed("498719e0-ef4f-4c15-a941-8d93643456ec")
+2020-05-12T05:13:34.593Z INFO webdriver: [GET] http://localhost:4723/session/6b2078db-6fe1-46d9-9db2-c0206706f582/element/498719e0-ef4f-4c15-a941-8d93643456ec/displayed
+2020-05-12T05:13:34.640Z INFO webdriver: RESULT true
+2020-05-12T05:13:34.641Z INFO webdriver: COMMAND findElement("accessibility id", "Forms")
+2020-05-12T05:13:34.641Z INFO webdriver: [POST] http://localhost:4723/session/6b2078db-6fe1-46d9-9db2-c0206706f582/element
+2020-05-12T05:13:34.641Z INFO webdriver: DATA { using: 'accessibility id', value: 'Forms' }
+2020-05-12T05:13:34.753Z INFO webdriver: RESULT {
+  'element-6066-11e4-a52e-4f735466cecf': '788901fb-16ef-4c21-a4b7-537660bc9cae',
+  ELEMENT: '788901fb-16ef-4c21-a4b7-537660bc9cae'
+}
+2020-05-12T05:13:34.755Z INFO webdriver: COMMAND elementClick("788901fb-16ef-4c21-a4b7-537660bc9cae")
+2020-05-12T05:13:34.755Z INFO webdriver: [POST] http://localhost:4723/session/6b2078db-6fe1-46d9-9db2-c0206706f582/element/788901fb-16ef-4c21-a4b7-537660bc9cae/click
+2020-05-12T05:13:35.353Z INFO webdriver: COMMAND findElement("accessibility id", "Forms-screen")
+2020-05-12T05:13:35.353Z INFO webdriver: [POST] http://localhost:4723/session/6b2078db-6fe1-46d9-9db2-c0206706f582/element
+2020-05-12T05:13:35.353Z INFO webdriver: DATA { using: 'accessibility id', value: 'Forms-screen' }
+2020-05-12T05:13:35.471Z INFO webdriver: RESULT {
+  'element-6066-11e4-a52e-4f735466cecf': 'd1a4523d-2015-474e-81c4-1a5bd1b7e59b',
+  ELEMENT: 'd1a4523d-2015-474e-81c4-1a5bd1b7e59b'
+}
+2020-05-12T05:13:35.473Z INFO webdriver: COMMAND isElementDisplayed("d1a4523d-2015-474e-81c4-1a5bd1b7e59b")
+2020-05-12T05:13:35.473Z INFO webdriver: [GET] http://localhost:4723/session/6b2078db-6fe1-46d9-9db2-c0206706f582/element/d1a4523d-2015-474e-81c4-1a5bd1b7e59b/displayed
+2020-05-12T05:13:35.557Z INFO webdriver: RESULT true
+2020-05-12T05:13:35.558Z INFO webdriver: COMMAND findElement("accessibility id", "button-Active")
+2020-05-12T05:13:35.558Z INFO webdriver: [POST] http://localhost:4723/session/6b2078db-6fe1-46d9-9db2-c0206706f582/element
+2020-05-12T05:13:35.558Z INFO webdriver: DATA { using: 'accessibility id', value: 'button-Active' }
+2020-05-12T05:13:35.637Z INFO webdriver: RESULT {
+  'element-6066-11e4-a52e-4f735466cecf': '2aa773a6-8b9c-474f-a24d-2dccd1987310',
+  ELEMENT: '2aa773a6-8b9c-474f-a24d-2dccd1987310'
+}
+2020-05-12T05:13:35.639Z INFO webdriver: COMMAND findElements("accessibility id", "button-Active")
+2020-05-12T05:13:35.640Z INFO webdriver: [POST] http://localhost:4723/session/6b2078db-6fe1-46d9-9db2-c0206706f582/elements
+2020-05-12T05:13:35.640Z INFO webdriver: DATA { using: 'accessibility id', value: 'button-Active' }
+2020-05-12T05:13:35.799Z INFO webdriver: RESULT [
+  {
+    'element-6066-11e4-a52e-4f735466cecf': 'ac51b2c1-9cd5-4ab4-9e81-b887b44beb3e',
+    ELEMENT: 'ac51b2c1-9cd5-4ab4-9e81-b887b44beb3e'
+  }
+]
+2020-05-12T05:13:35.802Z INFO webdriver: COMMAND isElementDisplayed("2aa773a6-8b9c-474f-a24d-2dccd1987310")
+2020-05-12T05:13:35.803Z INFO webdriver: [GET] http://localhost:4723/session/6b2078db-6fe1-46d9-9db2-c0206706f582/element/2aa773a6-8b9c-474f-a24d-2dccd1987310/displayed
+2020-05-12T05:13:35.843Z INFO webdriver: RESULT true
+2020-05-12T05:13:35.843Z INFO webdriver: COMMAND findElement("accessibility id", "button-Active")
+2020-05-12T05:13:35.843Z INFO webdriver: [POST] http://localhost:4723/session/6b2078db-6fe1-46d9-9db2-c0206706f582/element
+2020-05-12T05:13:35.843Z INFO webdriver: DATA { using: 'accessibility id', value: 'button-Active' }
+2020-05-12T05:13:35.899Z INFO webdriver: RESULT {
+  'element-6066-11e4-a52e-4f735466cecf': '9754b500-e0e4-4a4f-8620-037062a7d1ad',
+  ELEMENT: '9754b500-e0e4-4a4f-8620-037062a7d1ad'
+}
+2020-05-12T05:13:35.903Z INFO webdriver: COMMAND elementClick("9754b500-e0e4-4a4f-8620-037062a7d1ad")
+2020-05-12T05:13:35.903Z INFO webdriver: [POST] http://localhost:4723/session/6b2078db-6fe1-46d9-9db2-c0206706f582/element/9754b500-e0e4-4a4f-8620-037062a7d1ad/click
+2020-05-12T05:13:35.974Z INFO webdriver: COMMAND findElement("xpath", "*//android.widget.TextView[@resource-id="android:id/alertTitle"]")
+2020-05-12T05:13:35.974Z INFO webdriver: [POST] http://localhost:4723/session/6b2078db-6fe1-46d9-9db2-c0206706f582/element
+2020-05-12T05:13:35.974Z INFO webdriver: DATA {
+  using: 'xpath',
+  value: '*//android.widget.TextView[@resource-id="android:id/alertTitle"]'
+}
+2020-05-12T05:13:36.414Z INFO webdriver: RESULT {
+  error: 'no such element',
+  message: 'An element could not be located on the page using the given search parameters.',
+  stacktrace: 'NoSuchElementError: An element could not be located on the page using the given search parameters.\n' +
+    '    at AndroidUiautomator2Driver.findElOrEls (C:\\Users\\Paramveer Singh\\automation\\appium-browser-framework\\node_modules\\appium-android-driver\\lib\\commands\\find.js:75:11)\n' +
+    '    at runMicrotasks (<anonymous>)\n' +
+    '    at processTicksAndRejections (internal/process/task_queues.js:97:5)'
+}
+2020-05-12T05:13:36.416Z INFO webdriver: COMMAND findElements("xpath", "*//android.widget.TextView[@resource-id="android:id/alertTitle"]")
+2020-05-12T05:13:36.417Z INFO webdriver: [POST] http://localhost:4723/session/6b2078db-6fe1-46d9-9db2-c0206706f582/elements
+2020-05-12T05:13:36.417Z INFO webdriver: DATA {
+  using: 'xpath',
+  value: '*//android.widget.TextView[@resource-id="android:id/alertTitle"]'
+}
+2020-05-12T05:13:36.842Z INFO webdriver: RESULT [
+  {
+    'element-6066-11e4-a52e-4f735466cecf': 'ecfe46f5-7050-4745-94aa-4274c6d0810f',
+    ELEMENT: 'ecfe46f5-7050-4745-94aa-4274c6d0810f'
+  }
+]
+2020-05-12T05:13:36.845Z INFO webdriver: COMMAND findElement("xpath", "*//android.widget.TextView[@resource-id="android:id/alertTitle"]")
+2020-05-12T05:13:36.845Z INFO webdriver: [POST] http://localhost:4723/session/6b2078db-6fe1-46d9-9db2-c0206706f582/element
+2020-05-12T05:13:36.845Z INFO webdriver: DATA {
+  using: 'xpath',
+  value: '*//android.widget.TextView[@resource-id="android:id/alertTitle"]'
+}
+2020-05-12T05:13:36.977Z INFO webdriver: RESULT {
+  'element-6066-11e4-a52e-4f735466cecf': 'eadeb36b-a085-48c0-b612-00131d945692',
+  ELEMENT: 'eadeb36b-a085-48c0-b612-00131d945692'
+}
+2020-05-12T05:13:36.979Z INFO webdriver: COMMAND getElementText("eadeb36b-a085-48c0-b612-00131d945692")
+2020-05-12T05:13:36.979Z INFO webdriver: [GET] http://localhost:4723/session/6b2078db-6fe1-46d9-9db2-c0206706f582/element/eadeb36b-a085-48c0-b612-00131d945692/text
+2020-05-12T05:13:37.016Z INFO webdriver: RESULT This button is
+2020-05-12T05:13:37.016Z INFO webdriver: COMMAND findElement("xpath", "*//android.widget.TextView[@resource-id="android:id/message"]")
+2020-05-12T05:13:37.016Z INFO webdriver: [POST] http://localhost:4723/session/6b2078db-6fe1-46d9-9db2-c0206706f582/element
+2020-05-12T05:13:37.016Z INFO webdriver: DATA {
+  using: 'xpath',
+  value: '*//android.widget.TextView[@resource-id="android:id/message"]'
+}
+2020-05-12T05:13:37.147Z INFO webdriver: RESULT {
+  'element-6066-11e4-a52e-4f735466cecf': '995b9d36-9fd7-4193-85d4-2df171333dc7',
+  ELEMENT: '995b9d36-9fd7-4193-85d4-2df171333dc7'
+}
+2020-05-12T05:13:37.150Z INFO webdriver: COMMAND getElementText("995b9d36-9fd7-4193-85d4-2df171333dc7")
+2020-05-12T05:13:37.150Z INFO webdriver: [GET] http://localhost:4723/session/6b2078db-6fe1-46d9-9db2-c0206706f582/element/995b9d36-9fd7-4193-85d4-2df171333dc7/text
+2020-05-12T05:13:37.189Z INFO webdriver: RESULT This button is active
+2020-05-12T05:13:37.190Z INFO webdriver: COMMAND findElement("xpath", "*//android.widget.Button[@text="CANCEL"]")
+2020-05-12T05:13:37.190Z INFO webdriver: [POST] http://localhost:4723/session/6b2078db-6fe1-46d9-9db2-c0206706f582/element
+2020-05-12T05:13:37.190Z INFO webdriver: DATA { using: 'xpath', value: '*//android.widget.Button[@text="CANCEL"]' }
+2020-05-12T05:13:37.362Z INFO webdriver: RESULT {
+  'element-6066-11e4-a52e-4f735466cecf': 'e0cbaf19-3961-4062-bb8a-80604765660f',
+  ELEMENT: 'e0cbaf19-3961-4062-bb8a-80604765660f'
+}
+2020-05-12T05:13:37.364Z INFO webdriver: COMMAND elementClick("e0cbaf19-3961-4062-bb8a-80604765660f")
+2020-05-12T05:13:37.364Z INFO webdriver: [POST] http://localhost:4723/session/6b2078db-6fe1-46d9-9db2-c0206706f582/element/e0cbaf19-3961-4062-bb8a-80604765660f/click
+2020-05-12T05:13:37.430Z INFO webdriver: COMMAND findElement("xpath", "*//android.widget.TextView[@resource-id="android:id/alertTitle"]")
+2020-05-12T05:13:37.430Z INFO webdriver: [POST] http://localhost:4723/session/6b2078db-6fe1-46d9-9db2-c0206706f582/element
+2020-05-12T05:13:37.430Z INFO webdriver: DATA {
+  using: 'xpath',
+  value: '*//android.widget.TextView[@resource-id="android:id/alertTitle"]'
+}
+2020-05-12T05:13:38.494Z INFO webdriver: RESULT {
+  error: 'no such element',
+  message: 'An element could not be located on the page using the given search parameters.',
+  stacktrace: 'NoSuchElementError: An element could not be located on the page using the given search parameters.\n' +
+    '    at AndroidUiautomator2Driver.findElOrEls (C:\\Users\\Paramveer Singh\\automation\\appium-browser-framework\\node_modules\\appium-android-driver\\lib\\commands\\find.js:75:11)\n' +
+    '    at runMicrotasks (<anonymous>)\n' +
+    '    at processTicksAndRejections (internal/process/task_queues.js:97:5)'
+}
+2020-05-12T05:13:38.496Z INFO webdriver: COMMAND findElement("xpath", "*//android.widget.TextView[@resource-id="android:id/alertTitle"]")
+2020-05-12T05:13:38.496Z INFO webdriver: [POST] http://localhost:4723/session/6b2078db-6fe1-46d9-9db2-c0206706f582/element
+2020-05-12T05:13:38.496Z INFO webdriver: DATA {
+  using: 'xpath',
+  value: '*//android.widget.TextView[@resource-id="android:id/alertTitle"]'
+}
+2020-05-12T05:13:38.922Z INFO webdriver: RESULT {
+  error: 'no such element',
+  message: 'An element could not be located on the page using the given search parameters.',
+  stacktrace: 'NoSuchElementError: An element could not be located on the page using the given search parameters.\n' +
+    '    at AndroidUiautomator2Driver.findElOrEls (C:\\Users\\Paramveer Singh\\automation\\appium-browser-framework\\node_modules\\appium-android-driver\\lib\\commands\\find.js:75:11)\n' +
+    '    at runMicrotasks (<anonymous>)\n' +
+    '    at processTicksAndRejections (internal/process/task_queues.js:97:5)'
+}
+2020-05-12T05:13:38.925Z INFO webdriver: COMMAND findElement("accessibility id", "<Screenshot[base64]>")
+2020-05-12T05:13:38.925Z INFO webdriver: [POST] http://localhost:4723/session/6b2078db-6fe1-46d9-9db2-c0206706f582/element
+2020-05-12T05:13:38.925Z INFO webdriver: DATA { using: 'accessibility id', value: 'Home' }
+2020-05-12T05:13:39.808Z INFO webdriver: RESULT {
+  'element-6066-11e4-a52e-4f735466cecf': 'cedbf7f2-dc24-467c-aafe-cf9fac39d21f',
+  ELEMENT: 'cedbf7f2-dc24-467c-aafe-cf9fac39d21f'
+}
+2020-05-12T05:13:39.810Z INFO webdriver: COMMAND isElementDisplayed("cedbf7f2-dc24-467c-aafe-cf9fac39d21f")
+2020-05-12T05:13:39.810Z INFO webdriver: [GET] http://localhost:4723/session/6b2078db-6fe1-46d9-9db2-c0206706f582/element/cedbf7f2-dc24-467c-aafe-cf9fac39d21f/displayed
+2020-05-12T05:13:39.842Z INFO webdriver: RESULT true
+2020-05-12T05:13:39.842Z INFO webdriver: COMMAND findElement("accessibility id", "Forms")
+2020-05-12T05:13:39.842Z INFO webdriver: [POST] http://localhost:4723/session/6b2078db-6fe1-46d9-9db2-c0206706f582/element
+2020-05-12T05:13:39.842Z INFO webdriver: DATA { using: 'accessibility id', value: 'Forms' }
+2020-05-12T05:13:39.919Z INFO webdriver: RESULT {
+  'element-6066-11e4-a52e-4f735466cecf': '3183fa9e-a139-4e94-9f02-66eb69e4cd9a',
+  ELEMENT: '3183fa9e-a139-4e94-9f02-66eb69e4cd9a'
+}
+2020-05-12T05:13:39.921Z INFO webdriver: COMMAND elementClick("3183fa9e-a139-4e94-9f02-66eb69e4cd9a")
+2020-05-12T05:13:39.921Z INFO webdriver: [POST] http://localhost:4723/session/6b2078db-6fe1-46d9-9db2-c0206706f582/element/3183fa9e-a139-4e94-9f02-66eb69e4cd9a/click
+2020-05-12T05:13:39.986Z INFO webdriver: COMMAND findElement("accessibility id", "Forms-screen")
+2020-05-12T05:13:39.987Z INFO webdriver: [POST] http://localhost:4723/session/6b2078db-6fe1-46d9-9db2-c0206706f582/element
+2020-05-12T05:13:39.987Z INFO webdriver: DATA { using: 'accessibility id', value: 'Forms-screen' }
+2020-05-12T05:13:40.077Z INFO webdriver: RESULT {
+  'element-6066-11e4-a52e-4f735466cecf': '5c0b03cc-9022-407c-93a5-042f0b4b9ba4',
+  ELEMENT: '5c0b03cc-9022-407c-93a5-042f0b4b9ba4'
+}
+2020-05-12T05:13:40.079Z INFO webdriver: COMMAND isElementDisplayed("5c0b03cc-9022-407c-93a5-042f0b4b9ba4")
+2020-05-12T05:13:40.080Z INFO webdriver: [GET] http://localhost:4723/session/6b2078db-6fe1-46d9-9db2-c0206706f582/element/5c0b03cc-9022-407c-93a5-042f0b4b9ba4/displayed
+2020-05-12T05:13:40.133Z INFO webdriver: RESULT true
+2020-05-12T05:13:40.134Z INFO webdriver: COMMAND findElement("accessibility id", "button-Active")
+2020-05-12T05:13:40.134Z INFO webdriver: [POST] http://localhost:4723/session/6b2078db-6fe1-46d9-9db2-c0206706f582/element
+2020-05-12T05:13:40.134Z INFO webdriver: DATA { using: 'accessibility id', value: 'button-Active' }
+2020-05-12T05:13:40.204Z INFO webdriver: RESULT {
+  'element-6066-11e4-a52e-4f735466cecf': '17fac37d-bd67-4f89-9719-54d22f152d8d',
+  ELEMENT: '17fac37d-bd67-4f89-9719-54d22f152d8d'
+}
+2020-05-12T05:13:40.205Z INFO webdriver: COMMAND findElements("accessibility id", "button-Active")
+2020-05-12T05:13:40.205Z INFO webdriver: [POST] http://localhost:4723/session/6b2078db-6fe1-46d9-9db2-c0206706f582/elements
+2020-05-12T05:13:40.205Z INFO webdriver: DATA { using: 'accessibility id', value: 'button-Active' }
+2020-05-12T05:13:40.358Z INFO webdriver: RESULT [
+  {
+    'element-6066-11e4-a52e-4f735466cecf': '5040214a-f4a8-4bc6-8d7a-dd82cd1e5652',
+    ELEMENT: '5040214a-f4a8-4bc6-8d7a-dd82cd1e5652'
+  }
+]
+2020-05-12T05:13:40.361Z INFO webdriver: COMMAND isElementDisplayed("17fac37d-bd67-4f89-9719-54d22f152d8d")
+2020-05-12T05:13:40.361Z INFO webdriver: [GET] http://localhost:4723/session/6b2078db-6fe1-46d9-9db2-c0206706f582/element/17fac37d-bd67-4f89-9719-54d22f152d8d/displayed
+2020-05-12T05:13:40.462Z INFO webdriver: RESULT true
+2020-05-12T05:13:40.462Z INFO webdriver: COMMAND findElement("accessibility id", "button-Active")
+2020-05-12T05:13:40.462Z INFO webdriver: [POST] http://localhost:4723/session/6b2078db-6fe1-46d9-9db2-c0206706f582/element
+2020-05-12T05:13:40.462Z INFO webdriver: DATA { using: 'accessibility id', value: 'button-Active' }
+2020-05-12T05:13:40.557Z INFO webdriver: RESULT {
+  'element-6066-11e4-a52e-4f735466cecf': '8b0c9b65-b0be-44ce-adea-48e2ada79ae5',
+  ELEMENT: '8b0c9b65-b0be-44ce-adea-48e2ada79ae5'
+}
+2020-05-12T05:13:40.558Z INFO webdriver: COMMAND elementClick("8b0c9b65-b0be-44ce-adea-48e2ada79ae5")
+2020-05-12T05:13:40.559Z INFO webdriver: [POST] http://localhost:4723/session/6b2078db-6fe1-46d9-9db2-c0206706f582/element/8b0c9b65-b0be-44ce-adea-48e2ada79ae5/click
+2020-05-12T05:13:40.652Z INFO webdriver: COMMAND findElement("xpath", "*//android.widget.TextView[@resource-id="android:id/alertTitle"]")
+2020-05-12T05:13:40.652Z INFO webdriver: [POST] http://localhost:4723/session/6b2078db-6fe1-46d9-9db2-c0206706f582/element
+2020-05-12T05:13:40.653Z INFO webdriver: DATA {
+  using: 'xpath',
+  value: '*//android.widget.TextView[@resource-id="android:id/alertTitle"]'
+}
+2020-05-12T05:13:40.879Z INFO webdriver: RESULT {
+  error: 'no such element',
+  message: 'An element could not be located on the page using the given search parameters.',
+  stacktrace: 'NoSuchElementError: An element could not be located on the page using the given search parameters.\n' +
+    '    at AndroidUiautomator2Driver.findElOrEls (C:\\Users\\Paramveer Singh\\automation\\appium-browser-framework\\node_modules\\appium-android-driver\\lib\\commands\\find.js:75:11)\n' +
+    '    at runMicrotasks (<anonymous>)\n' +
+    '    at processTicksAndRejections (internal/process/task_queues.js:97:5)'
+}
+2020-05-12T05:13:40.881Z INFO webdriver: COMMAND findElements("xpath", "*//android.widget.TextView[@resource-id="android:id/alertTitle"]")
+2020-05-12T05:13:40.881Z INFO webdriver: [POST] http://localhost:4723/session/6b2078db-6fe1-46d9-9db2-c0206706f582/elements
+2020-05-12T05:13:40.881Z INFO webdriver: DATA {
+  using: 'xpath',
+  value: '*//android.widget.TextView[@resource-id="android:id/alertTitle"]'
+}
+2020-05-12T05:13:41.404Z INFO webdriver: RESULT [
+  {
+    'element-6066-11e4-a52e-4f735466cecf': 'e0dda688-7ca7-4308-a717-b47c57b0dd4e',
+    ELEMENT: 'e0dda688-7ca7-4308-a717-b47c57b0dd4e'
+  }
+]
+2020-05-12T05:13:41.407Z INFO webdriver: COMMAND findElement("xpath", "*//android.widget.TextView[@resource-id="android:id/alertTitle"]")
+2020-05-12T05:13:41.407Z INFO webdriver: [POST] http://localhost:4723/session/6b2078db-6fe1-46d9-9db2-c0206706f582/element
+2020-05-12T05:13:41.407Z INFO webdriver: DATA {
+  using: 'xpath',
+  value: '*//android.widget.TextView[@resource-id="android:id/alertTitle"]'
+}
+2020-05-12T05:13:41.524Z INFO webdriver: RESULT {
+  'element-6066-11e4-a52e-4f735466cecf': '05629431-ddf8-4ed6-a5ec-6f8f53f4ac4d',
+  ELEMENT: '05629431-ddf8-4ed6-a5ec-6f8f53f4ac4d'
+}
+2020-05-12T05:13:41.526Z INFO webdriver: COMMAND getElementText("05629431-ddf8-4ed6-a5ec-6f8f53f4ac4d")
+2020-05-12T05:13:41.526Z INFO webdriver: [GET] http://localhost:4723/session/6b2078db-6fe1-46d9-9db2-c0206706f582/element/05629431-ddf8-4ed6-a5ec-6f8f53f4ac4d/text
+2020-05-12T05:13:41.557Z INFO webdriver: RESULT This button is
+2020-05-12T05:13:41.557Z INFO webdriver: COMMAND findElement("xpath", "*//android.widget.TextView[@resource-id="android:id/message"]")
+2020-05-12T05:13:41.557Z INFO webdriver: [POST] http://localhost:4723/session/6b2078db-6fe1-46d9-9db2-c0206706f582/element
+2020-05-12T05:13:41.557Z INFO webdriver: DATA {
+  using: 'xpath',
+  value: '*//android.widget.TextView[@resource-id="android:id/message"]'
+}
+2020-05-12T05:13:41.671Z INFO webdriver: RESULT {
+  'element-6066-11e4-a52e-4f735466cecf': 'ec5cffff-fbd7-4184-9f0a-5f5dc87e104b',
+  ELEMENT: 'ec5cffff-fbd7-4184-9f0a-5f5dc87e104b'
+}
+2020-05-12T05:13:41.674Z INFO webdriver: COMMAND getElementText("ec5cffff-fbd7-4184-9f0a-5f5dc87e104b")
+2020-05-12T05:13:41.674Z INFO webdriver: [GET] http://localhost:4723/session/6b2078db-6fe1-46d9-9db2-c0206706f582/element/ec5cffff-fbd7-4184-9f0a-5f5dc87e104b/text
+2020-05-12T05:13:41.712Z INFO webdriver: RESULT This button is active
+2020-05-12T05:13:41.713Z INFO webdriver: COMMAND findElement("xpath", "*//android.widget.Button[@text="OK"]")
+2020-05-12T05:13:41.713Z INFO webdriver: [POST] http://localhost:4723/session/6b2078db-6fe1-46d9-9db2-c0206706f582/element
+2020-05-12T05:13:41.713Z INFO webdriver: DATA { using: 'xpath', value: '*//android.widget.Button[@text="OK"]' }
+2020-05-12T05:13:41.831Z INFO webdriver: RESULT {
+  'element-6066-11e4-a52e-4f735466cecf': '7e37fadb-13ef-4d9b-8bec-28418e7548e2',
+  ELEMENT: '7e37fadb-13ef-4d9b-8bec-28418e7548e2'
+}
+2020-05-12T05:13:41.834Z INFO webdriver: COMMAND elementClick("7e37fadb-13ef-4d9b-8bec-28418e7548e2")
+2020-05-12T05:13:41.834Z INFO webdriver: [POST] http://localhost:4723/session/6b2078db-6fe1-46d9-9db2-c0206706f582/element/7e37fadb-13ef-4d9b-8bec-28418e7548e2/click
+2020-05-12T05:13:41.892Z INFO webdriver: COMMAND findElement("xpath", "*//android.widget.TextView[@resource-id="android:id/alertTitle"]")
+2020-05-12T05:13:41.893Z INFO webdriver: [POST] http://localhost:4723/session/6b2078db-6fe1-46d9-9db2-c0206706f582/element
+2020-05-12T05:13:41.893Z INFO webdriver: DATA {
+  using: 'xpath',
+  value: '*//android.widget.TextView[@resource-id="android:id/alertTitle"]'
+}
+2020-05-12T05:13:42.544Z INFO @wdio/local-runner: Received SIGINT, giving process 5000ms to shutdown gracefully
+2020-05-12T05:13:42.547Z INFO @wdio/local-runner: Run worker command: endSession
+2020-05-12T05:13:42.548Z INFO webdriver: COMMAND deleteSession()
+2020-05-12T05:13:42.548Z INFO webdriver: [DELETE] http://localhost:4723/session/6b2078db-6fe1-46d9-9db2-c0206706f582
+2020-05-12T05:13:42.611Z DEBUG webdriver: request failed due to response error: unknown error
+2020-05-12T05:13:42.611Z WARN webdriver: Request failed with status 500 due to An unknown server-side error occurred while processing the command. Original error: The process has received SIGINT signal
+2020-05-12T05:13:42.611Z INFO webdriver: Retrying 1/3
+2020-05-12T05:13:42.611Z INFO webdriver: [POST] http://localhost:4723/session/6b2078db-6fe1-46d9-9db2-c0206706f582/element
+2020-05-12T05:13:42.611Z INFO webdriver: DATA {
+  using: 'xpath',
+  value: '*//android.widget.TextView[@resource-id="android:id/alertTitle"]'
+}
+2020-05-12T05:13:42.619Z DEBUG webdriver: request failed due to response error: invalid session id

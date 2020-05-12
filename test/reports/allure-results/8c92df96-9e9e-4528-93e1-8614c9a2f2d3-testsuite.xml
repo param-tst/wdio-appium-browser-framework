@@ -1,0 +1,93 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1589230684071' stop='1589230692034'>
+    <name>Performing a login: Performing login operation with passing test data as data table</name>
+    <title>Performing a login: Performing login operation with passing test data as data table</title>
+    <test-cases>
+        <test-case start='1589230684072' status='passed' stop='1589230684073'>
+            <name>Hook</name>
+            <title>Hook</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='chrome-9'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1589230684073' status='broken' stop='1589230692033'>
+            <name>Given I am on the phptravels page</name>
+            <title>Given I am on the phptravels page</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='chrome-9'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='c49312fb-0234-4f6f-ae09-e4ec2a86356c-attachment.png' type='image/png' size='183308'/>
+            </attachments>
+            <failure>
+                <message>Image not found, copy your actual image: 
+                'C:\Users\Paramveer Singh\automation\appium-browser-framework\.tmp\screenshots\actual\test-468087f4.png'
+                manually to your baseline or enable the option 
+                'autoSaveBaseline: true'
+                and this module will do that automatically for you.</message>
+                <stack-trace>Error: 
+                    at Browser.runCommandWithHooks (C:\Users\Paramveer Singh\automation\appium-browser-framework\node_modules\@wdio\sync\build\wrapCommand.js:82:22)
+                    at Browser.compareScreen (C:\Users\Paramveer Singh\automation\appium-browser-framework\node_modules\@wdio\sync\build\wrapCommand.js:59:40)
+                    at Browser.compareScreen (C:\Users\Paramveer Singh\automation\appium-browser-framework\node_modules\webdriverio\node_modules\@wdio\utils\build\monad.js:119:27)
+                    at World.&lt;anonymous> (C:\Users\Paramveer Singh\automation\appium-browser-framework\test\stepDefinitions\/given.js:15:18)
+                    at World.executeSync (C:\Users\Paramveer Singh\automation\appium-browser-framework\node_modules\@wdio\sync\build\index.js:56:18)
+                    at C:\Users\Paramveer Singh\automation\appium-browser-framework\node_modules\@wdio\sync\build\index.js:82:70</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1589230692033' status='pending' stop='1589230692033'>
+            <name>When I login with username and password "user@phptravels.com" "demouser" into the text box</name>
+            <title>When I login with username and password "user@phptravels.com" "demouser" into the text box</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='chrome-9'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1589230692033' status='pending' stop='1589230692033'>
+            <name>Then I should see the message "Hi, Demo User" on my account page</name>
+            <title>Then I should see the message "Hi, Demo User" on my account page</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='chrome-9'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1589230692033' status='passed' stop='1589230692034'>
+            <name>Hook</name>
+            <title>Hook</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='chrome-9'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

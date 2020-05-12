@@ -1,0 +1,1247 @@
+2020-05-11T21:33:53.560Z INFO @wdio/local-runner: Run worker command: run
+2020-05-11T21:33:53.569Z DEBUG @wdio/local-runner:utils: init remote session
+2020-05-11T21:33:53.571Z INFO webdriverio: Initiate new session using the ./protocol-stub protocol
+2020-05-11T21:33:54.094Z DEBUG @wdio/utils:initialiseServices: initialise service "appium" as NPM package
+2020-05-11T21:33:54.103Z DEBUG @wdio/local-runner:utils: init remote session
+2020-05-11T21:33:54.104Z INFO webdriverio: Initiate new session using the webdriver protocol
+2020-05-11T21:33:54.106Z INFO webdriver: [POST] http://localhost:4723/session
+2020-05-11T21:33:54.106Z INFO webdriver: DATA {
+  capabilities: {
+    alwaysMatch: {
+      platformName: 'Android',
+      'appium:chromedriverExecutableDir': './apps',
+      'appium:deviceName': '468087f4',
+      'appium:platformVersion': '9',
+      'appium:orientation': 'PORTRAIT',
+      'appium:automationName': 'UiAutomator2',
+      'appium:app': 'C:\\Users\\Paramveer Singh\\automation\\appium-browser-framework\\apps\\Android-NativeDemoApp-0.2.1.apk',
+      'appium:noReset': true,
+      'appium:fullReset': false,
+      'appium:dontStopAppOnReset': true,
+      'appium:newCommandTimeout': 60
+    },
+    firstMatch: [ {} ]
+  },
+  desiredCapabilities: {
+    platformName: 'Android',
+    'appium:chromedriverExecutableDir': './apps',
+    'appium:deviceName': '468087f4',
+    'appium:platformVersion': '9',
+    'appium:orientation': 'PORTRAIT',
+    'appium:automationName': 'UiAutomator2',
+    'appium:app': 'C:\\Users\\Paramveer Singh\\automation\\appium-browser-framework\\apps\\Android-NativeDemoApp-0.2.1.apk',
+    'appium:noReset': true,
+    'appium:fullReset': false,
+    'appium:dontStopAppOnReset': true,
+    'appium:newCommandTimeout': 60
+  }
+}
+2020-05-11T21:34:09.799Z INFO webdriver: COMMAND findElement("accessibility id", "<Screenshot[base64]>")
+2020-05-11T21:34:09.800Z INFO webdriver: [POST] http://localhost:4723/session/94c9767b-d9d4-4aad-8cd8-7faaf86a8328/element
+2020-05-11T21:34:09.800Z INFO webdriver: DATA { using: 'accessibility id', value: 'Home' }
+2020-05-11T21:34:09.931Z INFO webdriver: RESULT {
+  'element-6066-11e4-a52e-4f735466cecf': 'fbeaa7af-d9e3-40f1-938e-43b95cf5865d',
+  ELEMENT: 'fbeaa7af-d9e3-40f1-938e-43b95cf5865d'
+}
+2020-05-11T21:34:09.936Z INFO webdriver: COMMAND isElementDisplayed("fbeaa7af-d9e3-40f1-938e-43b95cf5865d")
+2020-05-11T21:34:09.937Z INFO webdriver: [GET] http://localhost:4723/session/94c9767b-d9d4-4aad-8cd8-7faaf86a8328/element/fbeaa7af-d9e3-40f1-938e-43b95cf5865d/displayed
+2020-05-11T21:34:10.007Z INFO webdriver: RESULT true
+2020-05-11T21:34:10.007Z INFO webdriver: COMMAND findElement("accessibility id", "Swipe")
+2020-05-11T21:34:10.007Z INFO webdriver: [POST] http://localhost:4723/session/94c9767b-d9d4-4aad-8cd8-7faaf86a8328/element
+2020-05-11T21:34:10.007Z INFO webdriver: DATA { using: 'accessibility id', value: 'Swipe' }
+2020-05-11T21:34:10.104Z INFO webdriver: RESULT {
+  'element-6066-11e4-a52e-4f735466cecf': '5c54d533-b3f9-4692-bef4-4d519628bfe7',
+  ELEMENT: '5c54d533-b3f9-4692-bef4-4d519628bfe7'
+}
+2020-05-11T21:34:10.108Z INFO webdriver: COMMAND elementClick("5c54d533-b3f9-4692-bef4-4d519628bfe7")
+2020-05-11T21:34:10.108Z INFO webdriver: [POST] http://localhost:4723/session/94c9767b-d9d4-4aad-8cd8-7faaf86a8328/element/5c54d533-b3f9-4692-bef4-4d519628bfe7/click
+2020-05-11T21:34:11.608Z INFO webdriver: COMMAND findElement("accessibility id", "Swipe-screen")
+2020-05-11T21:34:11.608Z INFO webdriver: [POST] http://localhost:4723/session/94c9767b-d9d4-4aad-8cd8-7faaf86a8328/element
+2020-05-11T21:34:11.608Z INFO webdriver: DATA { using: 'accessibility id', value: 'Swipe-screen' }
+2020-05-11T21:34:11.806Z INFO webdriver: RESULT {
+  error: 'no such element',
+  message: 'An element could not be located on the page using the given search parameters.',
+  stacktrace: 'NoSuchElementError: An element could not be located on the page using the given search parameters.\n' +
+    '    at AndroidUiautomator2Driver.findElOrEls (C:\\Users\\Paramveer Singh\\automation\\appium-browser-framework\\node_modules\\appium-android-driver\\lib\\commands\\find.js:75:11)\n' +
+    '    at processTicksAndRejections (internal/process/task_queues.js:97:5)'
+}
+2020-05-11T21:34:11.809Z INFO webdriver: COMMAND findElement("accessibility id", "Swipe-screen")
+2020-05-11T21:34:11.810Z INFO webdriver: [POST] http://localhost:4723/session/94c9767b-d9d4-4aad-8cd8-7faaf86a8328/element
+2020-05-11T21:34:11.810Z INFO webdriver: DATA { using: 'accessibility id', value: 'Swipe-screen' }
+2020-05-11T21:34:13.837Z INFO webdriver: RESULT {
+  'element-6066-11e4-a52e-4f735466cecf': '3e6ee73d-08a2-4761-9ebf-88c00b2a2f72',
+  ELEMENT: '3e6ee73d-08a2-4761-9ebf-88c00b2a2f72'
+}
+2020-05-11T21:34:13.840Z INFO webdriver: COMMAND isElementDisplayed("3e6ee73d-08a2-4761-9ebf-88c00b2a2f72")
+2020-05-11T21:34:13.840Z INFO webdriver: [GET] http://localhost:4723/session/94c9767b-d9d4-4aad-8cd8-7faaf86a8328/element/3e6ee73d-08a2-4761-9ebf-88c00b2a2f72/displayed
+2020-05-11T21:34:13.881Z INFO webdriver: RESULT true
+2020-05-11T21:34:13.883Z INFO webdriver: COMMAND findElement("accessibility id", "<Screenshot[base64]>")
+2020-05-11T21:34:13.883Z INFO webdriver: [POST] http://localhost:4723/session/94c9767b-d9d4-4aad-8cd8-7faaf86a8328/element
+2020-05-11T21:34:13.883Z INFO webdriver: DATA { using: 'accessibility id', value: 'Carousel' }
+2020-05-11T21:34:14.001Z INFO webdriver: RESULT {
+  'element-6066-11e4-a52e-4f735466cecf': '1acd597f-a986-4aac-9a6a-7e24e3429734',
+  ELEMENT: '1acd597f-a986-4aac-9a6a-7e24e3429734'
+}
+2020-05-11T21:34:14.004Z INFO webdriver: COMMAND isElementDisplayed("1acd597f-a986-4aac-9a6a-7e24e3429734")
+2020-05-11T21:34:14.004Z INFO webdriver: [GET] http://localhost:4723/session/94c9767b-d9d4-4aad-8cd8-7faaf86a8328/element/1acd597f-a986-4aac-9a6a-7e24e3429734/displayed
+2020-05-11T21:34:14.037Z INFO webdriver: RESULT true
+2020-05-11T21:34:14.038Z INFO webdriver: COMMAND findElements("accessibility id", "<Screenshot[base64]>")
+2020-05-11T21:34:14.038Z INFO webdriver: [POST] http://localhost:4723/session/94c9767b-d9d4-4aad-8cd8-7faaf86a8328/elements
+2020-05-11T21:34:14.038Z INFO webdriver: DATA { using: 'accessibility id', value: 'card' }
+2020-05-11T21:34:14.162Z INFO webdriver: RESULT [
+  {
+    'element-6066-11e4-a52e-4f735466cecf': '26a97f72-117c-43ba-818a-a7c020c76a03',
+    ELEMENT: '26a97f72-117c-43ba-818a-a7c020c76a03'
+  },
+  {
+    'element-6066-11e4-a52e-4f735466cecf': '04d5df29-a6fd-4350-b301-ea452297bb2a',
+    ELEMENT: '04d5df29-a6fd-4350-b301-ea452297bb2a'
+  }
+]
+2020-05-11T21:34:14.165Z INFO webdriver: COMMAND findElementsFromElement("26a97f72-117c-43ba-818a-a7c020c76a03", "xpath", "*//android.widget.TextView")
+2020-05-11T21:34:14.166Z INFO webdriver: [POST] http://localhost:4723/session/94c9767b-d9d4-4aad-8cd8-7faaf86a8328/element/26a97f72-117c-43ba-818a-a7c020c76a03/elements
+2020-05-11T21:34:14.166Z INFO webdriver: DATA { using: 'xpath', value: '*//android.widget.TextView' }
+2020-05-11T21:34:14.396Z INFO webdriver: RESULT [
+  {
+    'element-6066-11e4-a52e-4f735466cecf': 'b9eb6ddd-c364-4714-92ab-268076b1138c',
+    ELEMENT: 'b9eb6ddd-c364-4714-92ab-268076b1138c'
+  },
+  {
+    'element-6066-11e4-a52e-4f735466cecf': '3d1b43b5-796b-47b6-abd6-2a5a81e54887',
+    ELEMENT: '3d1b43b5-796b-47b6-abd6-2a5a81e54887'
+  },
+  {
+    'element-6066-11e4-a52e-4f735466cecf': '1da5d3a6-8972-486c-9611-d6baee3396af',
+    ELEMENT: '1da5d3a6-8972-486c-9611-d6baee3396af'
+  }
+]
+2020-05-11T21:34:14.401Z INFO webdriver: COMMAND getElementText("b9eb6ddd-c364-4714-92ab-268076b1138c")
+2020-05-11T21:34:14.401Z INFO webdriver: [GET] http://localhost:4723/session/94c9767b-d9d4-4aad-8cd8-7faaf86a8328/element/b9eb6ddd-c364-4714-92ab-268076b1138c/text
+2020-05-11T21:34:14.445Z INFO webdriver: RESULT FULLY OPEN SOURCE
+2020-05-11T21:34:14.445Z INFO webdriver: COMMAND getElementText("3d1b43b5-796b-47b6-abd6-2a5a81e54887")
+2020-05-11T21:34:14.445Z INFO webdriver: [GET] http://localhost:4723/session/94c9767b-d9d4-4aad-8cd8-7faaf86a8328/element/3d1b43b5-796b-47b6-abd6-2a5a81e54887/text
+2020-05-11T21:34:14.479Z INFO webdriver: RESULT WebdriverIO is fully open source and can be found on GitHub
+2020-05-11T21:34:14.479Z INFO webdriver: COMMAND getElementText("1da5d3a6-8972-486c-9611-d6baee3396af")
+2020-05-11T21:34:14.479Z INFO webdriver: [GET] http://localhost:4723/session/94c9767b-d9d4-4aad-8cd8-7faaf86a8328/element/1da5d3a6-8972-486c-9611-d6baee3396af/text
+2020-05-11T21:34:14.514Z INFO webdriver: RESULT 
+2020-05-11T21:34:14.517Z INFO webdriver: COMMAND findElement("accessibility id", "<Screenshot[base64]>")
+2020-05-11T21:34:14.517Z INFO webdriver: [POST] http://localhost:4723/session/94c9767b-d9d4-4aad-8cd8-7faaf86a8328/element
+2020-05-11T21:34:14.517Z INFO webdriver: DATA { using: 'accessibility id', value: 'Carousel' }
+2020-05-11T21:34:14.678Z INFO webdriver: RESULT {
+  'element-6066-11e4-a52e-4f735466cecf': '721986e8-b715-4a30-b73e-30790649c1da',
+  ELEMENT: '721986e8-b715-4a30-b73e-30790649c1da'
+}
+2020-05-11T21:34:14.683Z INFO webdriver: COMMAND getElementRect("721986e8-b715-4a30-b73e-30790649c1da")
+2020-05-11T21:34:14.683Z INFO webdriver: [GET] http://localhost:4723/session/94c9767b-d9d4-4aad-8cd8-7faaf86a8328/element/721986e8-b715-4a30-b73e-30790649c1da/rect
+2020-05-11T21:34:14.728Z INFO webdriver: RESULT { height: 925, width: 1080, x: 0, y: 658 }
+2020-05-11T21:34:14.728Z INFO webdriver: COMMAND touchPerform(<object>)
+2020-05-11T21:34:14.728Z INFO webdriver: [POST] http://localhost:4723/session/94c9767b-d9d4-4aad-8cd8-7faaf86a8328/touch/perform
+2020-05-11T21:34:14.728Z INFO webdriver: DATA {
+  actions: [
+    { action: 'press', options: [Object] },
+    { action: 'wait', options: [Object] },
+    { action: 'moveTo', options: [Object] },
+    { action: 'release' }
+  ]
+}
+2020-05-11T21:34:17.156Z INFO webdriver: COMMAND findElement("accessibility id", "<Screenshot[base64]>")
+2020-05-11T21:34:17.156Z INFO webdriver: [POST] http://localhost:4723/session/94c9767b-d9d4-4aad-8cd8-7faaf86a8328/element
+2020-05-11T21:34:17.156Z INFO webdriver: DATA { using: 'accessibility id', value: 'Carousel' }
+2020-05-11T21:34:17.438Z INFO webdriver: RESULT {
+  'element-6066-11e4-a52e-4f735466cecf': 'a7fffd40-1e13-4d5f-a334-6c4c6868943e',
+  ELEMENT: 'a7fffd40-1e13-4d5f-a334-6c4c6868943e'
+}
+2020-05-11T21:34:17.440Z INFO webdriver: COMMAND isElementDisplayed("a7fffd40-1e13-4d5f-a334-6c4c6868943e")
+2020-05-11T21:34:17.440Z INFO webdriver: [GET] http://localhost:4723/session/94c9767b-d9d4-4aad-8cd8-7faaf86a8328/element/a7fffd40-1e13-4d5f-a334-6c4c6868943e/displayed
+2020-05-11T21:34:17.485Z INFO webdriver: RESULT true
+2020-05-11T21:34:17.485Z INFO webdriver: COMMAND findElements("accessibility id", "<Screenshot[base64]>")
+2020-05-11T21:34:17.485Z INFO webdriver: [POST] http://localhost:4723/session/94c9767b-d9d4-4aad-8cd8-7faaf86a8328/elements
+2020-05-11T21:34:17.485Z INFO webdriver: DATA { using: 'accessibility id', value: 'card' }
+2020-05-11T21:34:17.654Z INFO webdriver: RESULT [
+  {
+    'element-6066-11e4-a52e-4f735466cecf': 'bd85f033-3160-4232-a964-d72fb20d8492',
+    ELEMENT: 'bd85f033-3160-4232-a964-d72fb20d8492'
+  },
+  {
+    'element-6066-11e4-a52e-4f735466cecf': 'c57f8dab-98d3-4790-a992-e4ac3aea1165',
+    ELEMENT: 'c57f8dab-98d3-4790-a992-e4ac3aea1165'
+  },
+  {
+    'element-6066-11e4-a52e-4f735466cecf': '6da66b29-bb04-4535-bf70-e0c2bc85d81e',
+    ELEMENT: '6da66b29-bb04-4535-bf70-e0c2bc85d81e'
+  }
+]
+2020-05-11T21:34:17.657Z INFO webdriver: COMMAND findElementsFromElement("c57f8dab-98d3-4790-a992-e4ac3aea1165", "xpath", "*//android.widget.TextView")
+2020-05-11T21:34:17.657Z INFO webdriver: [POST] http://localhost:4723/session/94c9767b-d9d4-4aad-8cd8-7faaf86a8328/element/c57f8dab-98d3-4790-a992-e4ac3aea1165/elements
+2020-05-11T21:34:17.657Z INFO webdriver: DATA { using: 'xpath', value: '*//android.widget.TextView' }
+2020-05-11T21:34:18.410Z INFO webdriver: RESULT [
+  {
+    'element-6066-11e4-a52e-4f735466cecf': '65049df1-eb68-4f04-9e73-42656256186b',
+    ELEMENT: '65049df1-eb68-4f04-9e73-42656256186b'
+  },
+  {
+    'element-6066-11e4-a52e-4f735466cecf': '2fa18bf9-8aaf-458a-bd85-16d751024db7',
+    ELEMENT: '2fa18bf9-8aaf-458a-bd85-16d751024db7'
+  },
+  {
+    'element-6066-11e4-a52e-4f735466cecf': '02294265-1acf-4788-b0b0-abc2028d73d3',
+    ELEMENT: '02294265-1acf-4788-b0b0-abc2028d73d3'
+  }
+]
+2020-05-11T21:34:18.415Z INFO webdriver: COMMAND getElementText("65049df1-eb68-4f04-9e73-42656256186b")
+2020-05-11T21:34:18.415Z INFO webdriver: [GET] http://localhost:4723/session/94c9767b-d9d4-4aad-8cd8-7faaf86a8328/element/65049df1-eb68-4f04-9e73-42656256186b/text
+2020-05-11T21:34:18.454Z INFO webdriver: RESULT CREAT COMMUNITY
+2020-05-11T21:34:18.454Z INFO webdriver: COMMAND getElementText("2fa18bf9-8aaf-458a-bd85-16d751024db7")
+2020-05-11T21:34:18.454Z INFO webdriver: [GET] http://localhost:4723/session/94c9767b-d9d4-4aad-8cd8-7faaf86a8328/element/2fa18bf9-8aaf-458a-bd85-16d751024db7/text
+2020-05-11T21:34:18.487Z INFO webdriver: RESULT WebdriverIO has a great community that supports all members.
+2020-05-11T21:34:18.488Z INFO webdriver: COMMAND getElementText("02294265-1acf-4788-b0b0-abc2028d73d3")
+2020-05-11T21:34:18.488Z INFO webdriver: [GET] http://localhost:4723/session/94c9767b-d9d4-4aad-8cd8-7faaf86a8328/element/02294265-1acf-4788-b0b0-abc2028d73d3/text
+2020-05-11T21:34:18.520Z INFO webdriver: RESULT 
+2020-05-11T21:34:18.524Z INFO webdriver: COMMAND findElement("accessibility id", "<Screenshot[base64]>")
+2020-05-11T21:34:18.524Z INFO webdriver: [POST] http://localhost:4723/session/94c9767b-d9d4-4aad-8cd8-7faaf86a8328/element
+2020-05-11T21:34:18.524Z INFO webdriver: DATA { using: 'accessibility id', value: 'Home' }
+2020-05-11T21:34:18.613Z INFO webdriver: RESULT {
+  'element-6066-11e4-a52e-4f735466cecf': '0cd7ad0f-f16a-4731-95ce-b27b5c30c7ea',
+  ELEMENT: '0cd7ad0f-f16a-4731-95ce-b27b5c30c7ea'
+}
+2020-05-11T21:34:18.616Z INFO webdriver: COMMAND isElementDisplayed("0cd7ad0f-f16a-4731-95ce-b27b5c30c7ea")
+2020-05-11T21:34:18.616Z INFO webdriver: [GET] http://localhost:4723/session/94c9767b-d9d4-4aad-8cd8-7faaf86a8328/element/0cd7ad0f-f16a-4731-95ce-b27b5c30c7ea/displayed
+2020-05-11T21:34:18.652Z INFO webdriver: RESULT true
+2020-05-11T21:34:18.652Z INFO webdriver: COMMAND findElement("accessibility id", "Swipe")
+2020-05-11T21:34:18.652Z INFO webdriver: [POST] http://localhost:4723/session/94c9767b-d9d4-4aad-8cd8-7faaf86a8328/element
+2020-05-11T21:34:18.652Z INFO webdriver: DATA { using: 'accessibility id', value: 'Swipe' }
+2020-05-11T21:34:18.776Z INFO webdriver: RESULT {
+  'element-6066-11e4-a52e-4f735466cecf': '7ddf3fed-9bda-4682-be94-dce04c14f1a2',
+  ELEMENT: '7ddf3fed-9bda-4682-be94-dce04c14f1a2'
+}
+2020-05-11T21:34:18.779Z INFO webdriver: COMMAND elementClick("7ddf3fed-9bda-4682-be94-dce04c14f1a2")
+2020-05-11T21:34:18.779Z INFO webdriver: [POST] http://localhost:4723/session/94c9767b-d9d4-4aad-8cd8-7faaf86a8328/element/7ddf3fed-9bda-4682-be94-dce04c14f1a2/click
+2020-05-11T21:34:18.854Z INFO webdriver: COMMAND findElement("accessibility id", "Swipe-screen")
+2020-05-11T21:34:18.854Z INFO webdriver: [POST] http://localhost:4723/session/94c9767b-d9d4-4aad-8cd8-7faaf86a8328/element
+2020-05-11T21:34:18.854Z INFO webdriver: DATA { using: 'accessibility id', value: 'Swipe-screen' }
+2020-05-11T21:34:19.767Z INFO webdriver: RESULT {
+  'element-6066-11e4-a52e-4f735466cecf': '4ceaccae-655b-4f46-b903-8b946f6934d3',
+  ELEMENT: '4ceaccae-655b-4f46-b903-8b946f6934d3'
+}
+2020-05-11T21:34:19.772Z INFO webdriver: COMMAND isElementDisplayed("4ceaccae-655b-4f46-b903-8b946f6934d3")
+2020-05-11T21:34:19.772Z INFO webdriver: [GET] http://localhost:4723/session/94c9767b-d9d4-4aad-8cd8-7faaf86a8328/element/4ceaccae-655b-4f46-b903-8b946f6934d3/displayed
+2020-05-11T21:34:19.821Z INFO webdriver: RESULT true
+2020-05-11T21:34:19.822Z INFO webdriver: COMMAND touchPerform(<object>)
+2020-05-11T21:34:19.822Z INFO webdriver: [POST] http://localhost:4723/session/94c9767b-d9d4-4aad-8cd8-7faaf86a8328/touch/perform
+2020-05-11T21:34:19.822Z INFO webdriver: DATA {
+  actions: [
+    { action: 'press', options: [Object] },
+    { action: 'wait', options: [Object] },
+    { action: 'moveTo', options: [Object] },
+    { action: 'release' }
+  ]
+}
+2020-05-11T21:34:22.321Z INFO webdriver: COMMAND findElement("accessibility id", "<Screenshot[base64]>")
+2020-05-11T21:34:22.321Z INFO webdriver: [POST] http://localhost:4723/session/94c9767b-d9d4-4aad-8cd8-7faaf86a8328/element
+2020-05-11T21:34:22.321Z INFO webdriver: DATA { using: 'accessibility id', value: 'Carousel' }
+2020-05-11T21:34:22.682Z INFO webdriver: RESULT {
+  'element-6066-11e4-a52e-4f735466cecf': '55b8bc30-aba8-43b6-a365-dc08acdd3e6b',
+  ELEMENT: '55b8bc30-aba8-43b6-a365-dc08acdd3e6b'
+}
+2020-05-11T21:34:22.684Z INFO webdriver: COMMAND isElementDisplayed("55b8bc30-aba8-43b6-a365-dc08acdd3e6b")
+2020-05-11T21:34:22.684Z INFO webdriver: [GET] http://localhost:4723/session/94c9767b-d9d4-4aad-8cd8-7faaf86a8328/element/55b8bc30-aba8-43b6-a365-dc08acdd3e6b/displayed
+2020-05-11T21:34:22.717Z INFO webdriver: RESULT true
+2020-05-11T21:34:22.718Z INFO webdriver: COMMAND findElements("accessibility id", "<Screenshot[base64]>")
+2020-05-11T21:34:22.718Z INFO webdriver: [POST] http://localhost:4723/session/94c9767b-d9d4-4aad-8cd8-7faaf86a8328/elements
+2020-05-11T21:34:22.718Z INFO webdriver: DATA { using: 'accessibility id', value: 'card' }
+2020-05-11T21:34:22.826Z INFO webdriver: RESULT [
+  {
+    'element-6066-11e4-a52e-4f735466cecf': '301d3557-077a-42b2-a42a-d6b6ea45d82f',
+    ELEMENT: '301d3557-077a-42b2-a42a-d6b6ea45d82f'
+  },
+  {
+    'element-6066-11e4-a52e-4f735466cecf': 'b0f1b1c0-34d6-474b-98cd-c3b05d202749',
+    ELEMENT: 'b0f1b1c0-34d6-474b-98cd-c3b05d202749'
+  },
+  {
+    'element-6066-11e4-a52e-4f735466cecf': '8c15e131-a0a8-4e53-adb4-0f784a3214ae',
+    ELEMENT: '8c15e131-a0a8-4e53-adb4-0f784a3214ae'
+  }
+]
+2020-05-11T21:34:22.829Z INFO webdriver: COMMAND findElementsFromElement("b0f1b1c0-34d6-474b-98cd-c3b05d202749", "xpath", "*//android.widget.TextView")
+2020-05-11T21:34:22.829Z INFO webdriver: [POST] http://localhost:4723/session/94c9767b-d9d4-4aad-8cd8-7faaf86a8328/element/b0f1b1c0-34d6-474b-98cd-c3b05d202749/elements
+2020-05-11T21:34:22.829Z INFO webdriver: DATA { using: 'xpath', value: '*//android.widget.TextView' }
+2020-05-11T21:34:22.951Z INFO webdriver: RESULT [
+  {
+    'element-6066-11e4-a52e-4f735466cecf': '43bd2e18-b097-44e5-bf7e-5a3811e6acc2',
+    ELEMENT: '43bd2e18-b097-44e5-bf7e-5a3811e6acc2'
+  },
+  {
+    'element-6066-11e4-a52e-4f735466cecf': '42aa9693-ac22-4dc6-947e-d00f639d7ae2',
+    ELEMENT: '42aa9693-ac22-4dc6-947e-d00f639d7ae2'
+  },
+  {
+    'element-6066-11e4-a52e-4f735466cecf': 'ea3bc81d-b221-4773-aeca-023c06827710',
+    ELEMENT: 'ea3bc81d-b221-4773-aeca-023c06827710'
+  }
+]
+2020-05-11T21:34:22.956Z INFO webdriver: COMMAND getElementText("43bd2e18-b097-44e5-bf7e-5a3811e6acc2")
+2020-05-11T21:34:22.956Z INFO webdriver: [GET] http://localhost:4723/session/94c9767b-d9d4-4aad-8cd8-7faaf86a8328/element/43bd2e18-b097-44e5-bf7e-5a3811e6acc2/text
+2020-05-11T21:34:22.988Z INFO webdriver: RESULT JS.FOUNDATION
+2020-05-11T21:34:22.988Z INFO webdriver: COMMAND getElementText("42aa9693-ac22-4dc6-947e-d00f639d7ae2")
+2020-05-11T21:34:22.988Z INFO webdriver: [GET] http://localhost:4723/session/94c9767b-d9d4-4aad-8cd8-7faaf86a8328/element/42aa9693-ac22-4dc6-947e-d00f639d7ae2/text
+2020-05-11T21:34:23.020Z INFO webdriver: RESULT The JS Foundation is host to projects that span the entire JavaScript ecosystem.
+2020-05-11T21:34:23.021Z INFO webdriver: COMMAND getElementText("ea3bc81d-b221-4773-aeca-023c06827710")
+2020-05-11T21:34:23.021Z INFO webdriver: [GET] http://localhost:4723/session/94c9767b-d9d4-4aad-8cd8-7faaf86a8328/element/ea3bc81d-b221-4773-aeca-023c06827710/text
+2020-05-11T21:34:23.054Z INFO webdriver: RESULT 
+2020-05-11T21:34:23.057Z INFO webdriver: COMMAND findElement("accessibility id", "<Screenshot[base64]>")
+2020-05-11T21:34:23.057Z INFO webdriver: [POST] http://localhost:4723/session/94c9767b-d9d4-4aad-8cd8-7faaf86a8328/element
+2020-05-11T21:34:23.057Z INFO webdriver: DATA { using: 'accessibility id', value: 'Home' }
+2020-05-11T21:34:23.133Z INFO webdriver: RESULT {
+  'element-6066-11e4-a52e-4f735466cecf': '0127830d-f810-41c1-960a-222369b5ceec',
+  ELEMENT: '0127830d-f810-41c1-960a-222369b5ceec'
+}
+2020-05-11T21:34:23.135Z INFO webdriver: COMMAND isElementDisplayed("0127830d-f810-41c1-960a-222369b5ceec")
+2020-05-11T21:34:23.135Z INFO webdriver: [GET] http://localhost:4723/session/94c9767b-d9d4-4aad-8cd8-7faaf86a8328/element/0127830d-f810-41c1-960a-222369b5ceec/displayed
+2020-05-11T21:34:23.169Z INFO webdriver: RESULT true
+2020-05-11T21:34:23.169Z INFO webdriver: COMMAND findElement("accessibility id", "Swipe")
+2020-05-11T21:34:23.169Z INFO webdriver: [POST] http://localhost:4723/session/94c9767b-d9d4-4aad-8cd8-7faaf86a8328/element
+2020-05-11T21:34:23.169Z INFO webdriver: DATA { using: 'accessibility id', value: 'Swipe' }
+2020-05-11T21:34:23.246Z INFO webdriver: RESULT {
+  'element-6066-11e4-a52e-4f735466cecf': 'b5188aac-d5de-463e-ab02-e2d73b4e4daa',
+  ELEMENT: 'b5188aac-d5de-463e-ab02-e2d73b4e4daa'
+}
+2020-05-11T21:34:23.248Z INFO webdriver: COMMAND elementClick("b5188aac-d5de-463e-ab02-e2d73b4e4daa")
+2020-05-11T21:34:23.248Z INFO webdriver: [POST] http://localhost:4723/session/94c9767b-d9d4-4aad-8cd8-7faaf86a8328/element/b5188aac-d5de-463e-ab02-e2d73b4e4daa/click
+2020-05-11T21:34:23.295Z INFO webdriver: COMMAND findElement("accessibility id", "Swipe-screen")
+2020-05-11T21:34:23.295Z INFO webdriver: [POST] http://localhost:4723/session/94c9767b-d9d4-4aad-8cd8-7faaf86a8328/element
+2020-05-11T21:34:23.295Z INFO webdriver: DATA { using: 'accessibility id', value: 'Swipe-screen' }
+2020-05-11T21:34:23.377Z INFO webdriver: RESULT {
+  'element-6066-11e4-a52e-4f735466cecf': '139b3462-12d3-429d-80a3-5038fa36d2cc',
+  ELEMENT: '139b3462-12d3-429d-80a3-5038fa36d2cc'
+}
+2020-05-11T21:34:23.378Z INFO webdriver: COMMAND isElementDisplayed("139b3462-12d3-429d-80a3-5038fa36d2cc")
+2020-05-11T21:34:23.378Z INFO webdriver: [GET] http://localhost:4723/session/94c9767b-d9d4-4aad-8cd8-7faaf86a8328/element/139b3462-12d3-429d-80a3-5038fa36d2cc/displayed
+2020-05-11T21:34:23.432Z INFO webdriver: RESULT true
+2020-05-11T21:34:23.432Z INFO webdriver: COMMAND touchPerform(<object>)
+2020-05-11T21:34:23.433Z INFO webdriver: [POST] http://localhost:4723/session/94c9767b-d9d4-4aad-8cd8-7faaf86a8328/touch/perform
+2020-05-11T21:34:23.433Z INFO webdriver: DATA {
+  actions: [
+    { action: 'press', options: [Object] },
+    { action: 'wait', options: [Object] },
+    { action: 'moveTo', options: [Object] },
+    { action: 'release' }
+  ]
+}
+2020-05-11T21:34:25.846Z INFO webdriver: COMMAND findElement("accessibility id", "<Screenshot[base64]>")
+2020-05-11T21:34:25.846Z INFO webdriver: [POST] http://localhost:4723/session/94c9767b-d9d4-4aad-8cd8-7faaf86a8328/element
+2020-05-11T21:34:25.846Z INFO webdriver: DATA { using: 'accessibility id', value: 'Carousel' }
+2020-05-11T21:34:26.199Z INFO webdriver: RESULT {
+  'element-6066-11e4-a52e-4f735466cecf': '5b6efef8-f06b-4eb0-82f9-15c56d1477cb',
+  ELEMENT: '5b6efef8-f06b-4eb0-82f9-15c56d1477cb'
+}
+2020-05-11T21:34:26.200Z INFO webdriver: COMMAND isElementDisplayed("5b6efef8-f06b-4eb0-82f9-15c56d1477cb")
+2020-05-11T21:34:26.201Z INFO webdriver: [GET] http://localhost:4723/session/94c9767b-d9d4-4aad-8cd8-7faaf86a8328/element/5b6efef8-f06b-4eb0-82f9-15c56d1477cb/displayed
+2020-05-11T21:34:26.231Z INFO webdriver: RESULT true
+2020-05-11T21:34:26.231Z INFO webdriver: COMMAND findElements("accessibility id", "<Screenshot[base64]>")
+2020-05-11T21:34:26.231Z INFO webdriver: [POST] http://localhost:4723/session/94c9767b-d9d4-4aad-8cd8-7faaf86a8328/elements
+2020-05-11T21:34:26.231Z INFO webdriver: DATA { using: 'accessibility id', value: 'card' }
+2020-05-11T21:34:26.302Z INFO webdriver: RESULT [
+  {
+    'element-6066-11e4-a52e-4f735466cecf': '372ee118-5755-4805-9bcf-4b2f1e7e9f8a',
+    ELEMENT: '372ee118-5755-4805-9bcf-4b2f1e7e9f8a'
+  },
+  {
+    'element-6066-11e4-a52e-4f735466cecf': 'ec44adfb-9db7-4cab-85f6-7580df58ec1d',
+    ELEMENT: 'ec44adfb-9db7-4cab-85f6-7580df58ec1d'
+  },
+  {
+    'element-6066-11e4-a52e-4f735466cecf': 'd7cf37fe-7c04-4020-a176-4f07d04ddb9e',
+    ELEMENT: 'd7cf37fe-7c04-4020-a176-4f07d04ddb9e'
+  }
+]
+2020-05-11T21:34:26.305Z INFO webdriver: COMMAND findElementsFromElement("ec44adfb-9db7-4cab-85f6-7580df58ec1d", "xpath", "*//android.widget.TextView")
+2020-05-11T21:34:26.306Z INFO webdriver: [POST] http://localhost:4723/session/94c9767b-d9d4-4aad-8cd8-7faaf86a8328/element/ec44adfb-9db7-4cab-85f6-7580df58ec1d/elements
+2020-05-11T21:34:26.306Z INFO webdriver: DATA { using: 'xpath', value: '*//android.widget.TextView' }
+2020-05-11T21:34:26.414Z INFO webdriver: RESULT [
+  {
+    'element-6066-11e4-a52e-4f735466cecf': '62d8d1f5-360f-4c7c-9f0c-689910754de2',
+    ELEMENT: '62d8d1f5-360f-4c7c-9f0c-689910754de2'
+  },
+  {
+    'element-6066-11e4-a52e-4f735466cecf': 'b30dbf65-f86c-4e77-8d5e-c08197b704d7',
+    ELEMENT: 'b30dbf65-f86c-4e77-8d5e-c08197b704d7'
+  },
+  {
+    'element-6066-11e4-a52e-4f735466cecf': '2ca62044-47af-48c9-92b7-b8099dab29b2',
+    ELEMENT: '2ca62044-47af-48c9-92b7-b8099dab29b2'
+  }
+]
+2020-05-11T21:34:26.417Z INFO webdriver: COMMAND getElementText("62d8d1f5-360f-4c7c-9f0c-689910754de2")
+2020-05-11T21:34:26.417Z INFO webdriver: [GET] http://localhost:4723/session/94c9767b-d9d4-4aad-8cd8-7faaf86a8328/element/62d8d1f5-360f-4c7c-9f0c-689910754de2/text
+2020-05-11T21:34:26.452Z INFO webdriver: RESULT SUPPORT VIDEOS
+2020-05-11T21:34:26.452Z INFO webdriver: COMMAND getElementText("b30dbf65-f86c-4e77-8d5e-c08197b704d7")
+2020-05-11T21:34:26.452Z INFO webdriver: [GET] http://localhost:4723/session/94c9767b-d9d4-4aad-8cd8-7faaf86a8328/element/b30dbf65-f86c-4e77-8d5e-c08197b704d7/text
+2020-05-11T21:34:26.486Z INFO webdriver: RESULT The community around WebdriverIO is actively speaking on various user groups or conferences about specific topics around automated testing with WebdriverIO.
+2020-05-11T21:34:26.487Z INFO webdriver: COMMAND getElementText("2ca62044-47af-48c9-92b7-b8099dab29b2")
+2020-05-11T21:34:26.487Z INFO webdriver: [GET] http://localhost:4723/session/94c9767b-d9d4-4aad-8cd8-7faaf86a8328/element/2ca62044-47af-48c9-92b7-b8099dab29b2/text
+2020-05-11T21:34:26.512Z INFO webdriver: RESULT 
+2020-05-11T21:34:26.514Z INFO webdriver: COMMAND findElement("accessibility id", "<Screenshot[base64]>")
+2020-05-11T21:34:26.514Z INFO webdriver: [POST] http://localhost:4723/session/94c9767b-d9d4-4aad-8cd8-7faaf86a8328/element
+2020-05-11T21:34:26.514Z INFO webdriver: DATA { using: 'accessibility id', value: 'Home' }
+2020-05-11T21:34:26.591Z INFO webdriver: RESULT {
+  'element-6066-11e4-a52e-4f735466cecf': '7c35e706-0bea-4be8-8444-e692edfb7faf',
+  ELEMENT: '7c35e706-0bea-4be8-8444-e692edfb7faf'
+}
+2020-05-11T21:34:26.593Z INFO webdriver: COMMAND isElementDisplayed("7c35e706-0bea-4be8-8444-e692edfb7faf")
+2020-05-11T21:34:26.593Z INFO webdriver: [GET] http://localhost:4723/session/94c9767b-d9d4-4aad-8cd8-7faaf86a8328/element/7c35e706-0bea-4be8-8444-e692edfb7faf/displayed
+2020-05-11T21:34:26.621Z INFO webdriver: RESULT true
+2020-05-11T21:34:26.622Z INFO webdriver: COMMAND findElement("accessibility id", "Swipe")
+2020-05-11T21:34:26.622Z INFO webdriver: [POST] http://localhost:4723/session/94c9767b-d9d4-4aad-8cd8-7faaf86a8328/element
+2020-05-11T21:34:26.622Z INFO webdriver: DATA { using: 'accessibility id', value: 'Swipe' }
+2020-05-11T21:34:26.687Z INFO webdriver: RESULT {
+  'element-6066-11e4-a52e-4f735466cecf': 'd1949f05-64be-4f96-b6ad-6031bfc4c6d9',
+  ELEMENT: 'd1949f05-64be-4f96-b6ad-6031bfc4c6d9'
+}
+2020-05-11T21:34:26.689Z INFO webdriver: COMMAND elementClick("d1949f05-64be-4f96-b6ad-6031bfc4c6d9")
+2020-05-11T21:34:26.690Z INFO webdriver: [POST] http://localhost:4723/session/94c9767b-d9d4-4aad-8cd8-7faaf86a8328/element/d1949f05-64be-4f96-b6ad-6031bfc4c6d9/click
+2020-05-11T21:34:26.733Z INFO webdriver: COMMAND findElement("accessibility id", "Swipe-screen")
+2020-05-11T21:34:26.733Z INFO webdriver: [POST] http://localhost:4723/session/94c9767b-d9d4-4aad-8cd8-7faaf86a8328/element
+2020-05-11T21:34:26.733Z INFO webdriver: DATA { using: 'accessibility id', value: 'Swipe-screen' }
+2020-05-11T21:34:26.816Z INFO webdriver: RESULT {
+  'element-6066-11e4-a52e-4f735466cecf': 'bb1d87c0-4656-44bb-8283-a62ce34ce193',
+  ELEMENT: 'bb1d87c0-4656-44bb-8283-a62ce34ce193'
+}
+2020-05-11T21:34:26.819Z INFO webdriver: COMMAND isElementDisplayed("bb1d87c0-4656-44bb-8283-a62ce34ce193")
+2020-05-11T21:34:26.819Z INFO webdriver: [GET] http://localhost:4723/session/94c9767b-d9d4-4aad-8cd8-7faaf86a8328/element/bb1d87c0-4656-44bb-8283-a62ce34ce193/displayed
+2020-05-11T21:34:26.852Z INFO webdriver: RESULT true
+2020-05-11T21:34:26.853Z INFO webdriver: COMMAND touchPerform(<object>)
+2020-05-11T21:34:26.853Z INFO webdriver: [POST] http://localhost:4723/session/94c9767b-d9d4-4aad-8cd8-7faaf86a8328/touch/perform
+2020-05-11T21:34:26.853Z INFO webdriver: DATA {
+  actions: [
+    { action: 'press', options: [Object] },
+    { action: 'wait', options: [Object] },
+    { action: 'moveTo', options: [Object] },
+    { action: 'release' }
+  ]
+}
+2020-05-11T21:34:29.153Z INFO webdriver: COMMAND touchPerform(<object>)
+2020-05-11T21:34:29.153Z INFO webdriver: [POST] http://localhost:4723/session/94c9767b-d9d4-4aad-8cd8-7faaf86a8328/touch/perform
+2020-05-11T21:34:29.153Z INFO webdriver: DATA {
+  actions: [
+    { action: 'press', options: [Object] },
+    { action: 'wait', options: [Object] },
+    { action: 'moveTo', options: [Object] },
+    { action: 'release' }
+  ]
+}
+2020-05-11T21:34:31.442Z INFO webdriver: COMMAND findElement("accessibility id", "<Screenshot[base64]>")
+2020-05-11T21:34:31.443Z INFO webdriver: [POST] http://localhost:4723/session/94c9767b-d9d4-4aad-8cd8-7faaf86a8328/element
+2020-05-11T21:34:31.443Z INFO webdriver: DATA { using: 'accessibility id', value: 'Carousel' }
+2020-05-11T21:34:31.797Z INFO webdriver: RESULT {
+  'element-6066-11e4-a52e-4f735466cecf': '2d2c8a52-b444-4fed-808c-69558a81856b',
+  ELEMENT: '2d2c8a52-b444-4fed-808c-69558a81856b'
+}
+2020-05-11T21:34:31.798Z INFO webdriver: COMMAND isElementDisplayed("2d2c8a52-b444-4fed-808c-69558a81856b")
+2020-05-11T21:34:31.798Z INFO webdriver: [GET] http://localhost:4723/session/94c9767b-d9d4-4aad-8cd8-7faaf86a8328/element/2d2c8a52-b444-4fed-808c-69558a81856b/displayed
+2020-05-11T21:34:31.831Z INFO webdriver: RESULT true
+2020-05-11T21:34:31.831Z INFO webdriver: COMMAND findElements("accessibility id", "<Screenshot[base64]>")
+2020-05-11T21:34:31.831Z INFO webdriver: [POST] http://localhost:4723/session/94c9767b-d9d4-4aad-8cd8-7faaf86a8328/elements
+2020-05-11T21:34:31.831Z INFO webdriver: DATA { using: 'accessibility id', value: 'card' }
+2020-05-11T21:34:31.904Z INFO webdriver: RESULT [
+  {
+    'element-6066-11e4-a52e-4f735466cecf': '1a9c2ab3-302f-4483-ac82-0d58a8dd4a53',
+    ELEMENT: '1a9c2ab3-302f-4483-ac82-0d58a8dd4a53'
+  },
+  {
+    'element-6066-11e4-a52e-4f735466cecf': '73bb98f4-c7a9-40bb-aedb-bc43959f3dfa',
+    ELEMENT: '73bb98f4-c7a9-40bb-aedb-bc43959f3dfa'
+  }
+]
+2020-05-11T21:34:31.907Z INFO webdriver: COMMAND findElementsFromElement("73bb98f4-c7a9-40bb-aedb-bc43959f3dfa", "xpath", "*//android.widget.TextView")
+2020-05-11T21:34:31.907Z INFO webdriver: [POST] http://localhost:4723/session/94c9767b-d9d4-4aad-8cd8-7faaf86a8328/element/73bb98f4-c7a9-40bb-aedb-bc43959f3dfa/elements
+2020-05-11T21:34:31.907Z INFO webdriver: DATA { using: 'xpath', value: '*//android.widget.TextView' }
+2020-05-11T21:34:32.005Z INFO webdriver: RESULT [
+  {
+    'element-6066-11e4-a52e-4f735466cecf': 'f1a5d8d1-ed0a-42cb-91a8-bdf8b0bd042d',
+    ELEMENT: 'f1a5d8d1-ed0a-42cb-91a8-bdf8b0bd042d'
+  },
+  {
+    'element-6066-11e4-a52e-4f735466cecf': '42f70015-8abd-425b-aa53-00d7c7d848f3',
+    ELEMENT: '42f70015-8abd-425b-aa53-00d7c7d848f3'
+  },
+  {
+    'element-6066-11e4-a52e-4f735466cecf': 'e00c89f8-3c3c-4d44-80a3-1df075150b3c',
+    ELEMENT: 'e00c89f8-3c3c-4d44-80a3-1df075150b3c'
+  }
+]
+2020-05-11T21:34:32.008Z INFO webdriver: COMMAND getElementText("f1a5d8d1-ed0a-42cb-91a8-bdf8b0bd042d")
+2020-05-11T21:34:32.008Z INFO webdriver: [GET] http://localhost:4723/session/94c9767b-d9d4-4aad-8cd8-7faaf86a8328/element/f1a5d8d1-ed0a-42cb-91a8-bdf8b0bd042d/text
+2020-05-11T21:34:32.043Z INFO webdriver: RESULT COMPATIBLE
+2020-05-11T21:34:32.044Z INFO webdriver: COMMAND getElementText("42f70015-8abd-425b-aa53-00d7c7d848f3")
+2020-05-11T21:34:32.044Z INFO webdriver: [GET] http://localhost:4723/session/94c9767b-d9d4-4aad-8cd8-7faaf86a8328/element/42f70015-8abd-425b-aa53-00d7c7d848f3/text
+2020-05-11T21:34:32.076Z INFO webdriver: RESULT WebdriverIO works in combination with most of the TDD and BDD test frameworks in the JavaScript world
+2020-05-11T21:34:32.077Z INFO webdriver: COMMAND getElementText("e00c89f8-3c3c-4d44-80a3-1df075150b3c")
+2020-05-11T21:34:32.077Z INFO webdriver: [GET] http://localhost:4723/session/94c9767b-d9d4-4aad-8cd8-7faaf86a8328/element/e00c89f8-3c3c-4d44-80a3-1df075150b3c/text
+2020-05-11T21:34:32.101Z INFO webdriver: RESULT 尿
+2020-05-11T21:34:32.102Z INFO webdriver: COMMAND findElement("accessibility id", "<Screenshot[base64]>")
+2020-05-11T21:34:32.103Z INFO webdriver: [POST] http://localhost:4723/session/94c9767b-d9d4-4aad-8cd8-7faaf86a8328/element
+2020-05-11T21:34:32.103Z INFO webdriver: DATA { using: 'accessibility id', value: 'Home' }
+2020-05-11T21:34:32.177Z INFO webdriver: RESULT {
+  'element-6066-11e4-a52e-4f735466cecf': 'c3eb0275-da48-43e9-b9ce-16757bc68ea4',
+  ELEMENT: 'c3eb0275-da48-43e9-b9ce-16757bc68ea4'
+}
+2020-05-11T21:34:32.179Z INFO webdriver: COMMAND isElementDisplayed("c3eb0275-da48-43e9-b9ce-16757bc68ea4")
+2020-05-11T21:34:32.180Z INFO webdriver: [GET] http://localhost:4723/session/94c9767b-d9d4-4aad-8cd8-7faaf86a8328/element/c3eb0275-da48-43e9-b9ce-16757bc68ea4/displayed
+2020-05-11T21:34:32.214Z INFO webdriver: RESULT true
+2020-05-11T21:34:32.214Z INFO webdriver: COMMAND findElement("accessibility id", "Swipe")
+2020-05-11T21:34:32.215Z INFO webdriver: [POST] http://localhost:4723/session/94c9767b-d9d4-4aad-8cd8-7faaf86a8328/element
+2020-05-11T21:34:32.215Z INFO webdriver: DATA { using: 'accessibility id', value: 'Swipe' }
+2020-05-11T21:34:32.276Z INFO webdriver: RESULT {
+  'element-6066-11e4-a52e-4f735466cecf': 'bde24cea-fd7a-4f3a-a805-b87b39db1e5f',
+  ELEMENT: 'bde24cea-fd7a-4f3a-a805-b87b39db1e5f'
+}
+2020-05-11T21:34:32.278Z INFO webdriver: COMMAND elementClick("bde24cea-fd7a-4f3a-a805-b87b39db1e5f")
+2020-05-11T21:34:32.278Z INFO webdriver: [POST] http://localhost:4723/session/94c9767b-d9d4-4aad-8cd8-7faaf86a8328/element/bde24cea-fd7a-4f3a-a805-b87b39db1e5f/click
+2020-05-11T21:34:32.315Z INFO webdriver: COMMAND findElement("accessibility id", "Swipe-screen")
+2020-05-11T21:34:32.315Z INFO webdriver: [POST] http://localhost:4723/session/94c9767b-d9d4-4aad-8cd8-7faaf86a8328/element
+2020-05-11T21:34:32.315Z INFO webdriver: DATA { using: 'accessibility id', value: 'Swipe-screen' }
+2020-05-11T21:34:32.383Z INFO webdriver: RESULT {
+  'element-6066-11e4-a52e-4f735466cecf': '13c677b4-362b-4650-93de-84f4087ac99a',
+  ELEMENT: '13c677b4-362b-4650-93de-84f4087ac99a'
+}
+2020-05-11T21:34:32.386Z INFO webdriver: COMMAND isElementDisplayed("13c677b4-362b-4650-93de-84f4087ac99a")
+2020-05-11T21:34:32.386Z INFO webdriver: [GET] http://localhost:4723/session/94c9767b-d9d4-4aad-8cd8-7faaf86a8328/element/13c677b4-362b-4650-93de-84f4087ac99a/displayed
+2020-05-11T21:34:32.417Z INFO webdriver: RESULT true
+2020-05-11T21:34:32.418Z INFO webdriver: COMMAND touchPerform(<object>)
+2020-05-11T21:34:32.419Z INFO webdriver: [POST] http://localhost:4723/session/94c9767b-d9d4-4aad-8cd8-7faaf86a8328/touch/perform
+2020-05-11T21:34:32.419Z INFO webdriver: DATA {
+  actions: [
+    { action: 'press', options: [Object] },
+    { action: 'wait', options: [Object] },
+    { action: 'moveTo', options: [Object] },
+    { action: 'release' }
+  ]
+}
+2020-05-11T21:34:34.700Z INFO webdriver: COMMAND findElement("accessibility id", "<Screenshot[base64]>")
+2020-05-11T21:34:34.700Z INFO webdriver: [POST] http://localhost:4723/session/94c9767b-d9d4-4aad-8cd8-7faaf86a8328/element
+2020-05-11T21:34:34.700Z INFO webdriver: DATA { using: 'accessibility id', value: 'Carousel' }
+2020-05-11T21:34:34.842Z INFO webdriver: RESULT {
+  'element-6066-11e4-a52e-4f735466cecf': '7b8d15c4-31e0-4136-a0ee-3530c8b82cf6',
+  ELEMENT: '7b8d15c4-31e0-4136-a0ee-3530c8b82cf6'
+}
+2020-05-11T21:34:34.844Z INFO webdriver: COMMAND isElementDisplayed("7b8d15c4-31e0-4136-a0ee-3530c8b82cf6")
+2020-05-11T21:34:34.844Z INFO webdriver: [GET] http://localhost:4723/session/94c9767b-d9d4-4aad-8cd8-7faaf86a8328/element/7b8d15c4-31e0-4136-a0ee-3530c8b82cf6/displayed
+2020-05-11T21:34:34.995Z INFO webdriver: RESULT true
+2020-05-11T21:34:34.995Z INFO webdriver: COMMAND findElements("accessibility id", "<Screenshot[base64]>")
+2020-05-11T21:34:34.996Z INFO webdriver: [POST] http://localhost:4723/session/94c9767b-d9d4-4aad-8cd8-7faaf86a8328/elements
+2020-05-11T21:34:34.996Z INFO webdriver: DATA { using: 'accessibility id', value: 'card' }
+2020-05-11T21:34:35.076Z INFO webdriver: RESULT [
+  {
+    'element-6066-11e4-a52e-4f735466cecf': 'e26e5da7-4f90-4b62-9ddb-823ad21f0493',
+    ELEMENT: 'e26e5da7-4f90-4b62-9ddb-823ad21f0493'
+  },
+  {
+    'element-6066-11e4-a52e-4f735466cecf': '4e8c377d-3246-422b-a095-7a967088565d',
+    ELEMENT: '4e8c377d-3246-422b-a095-7a967088565d'
+  },
+  {
+    'element-6066-11e4-a52e-4f735466cecf': '6e974566-b906-4572-a2ba-3eade3f6d312',
+    ELEMENT: '6e974566-b906-4572-a2ba-3eade3f6d312'
+  }
+]
+2020-05-11T21:34:35.079Z INFO webdriver: COMMAND findElementsFromElement("4e8c377d-3246-422b-a095-7a967088565d", "xpath", "*//android.widget.TextView")
+2020-05-11T21:34:35.079Z INFO webdriver: [POST] http://localhost:4723/session/94c9767b-d9d4-4aad-8cd8-7faaf86a8328/element/4e8c377d-3246-422b-a095-7a967088565d/elements
+2020-05-11T21:34:35.079Z INFO webdriver: DATA { using: 'xpath', value: '*//android.widget.TextView' }
+2020-05-11T21:34:35.189Z INFO webdriver: RESULT [
+  {
+    'element-6066-11e4-a52e-4f735466cecf': '56935663-efcd-40d1-a2a4-507ca01677b3',
+    ELEMENT: '56935663-efcd-40d1-a2a4-507ca01677b3'
+  },
+  {
+    'element-6066-11e4-a52e-4f735466cecf': '9cc57993-21e1-4f1f-b889-d055b331c1af',
+    ELEMENT: '9cc57993-21e1-4f1f-b889-d055b331c1af'
+  },
+  {
+    'element-6066-11e4-a52e-4f735466cecf': '78002360-f1bf-422c-afa5-3d52a16fe476',
+    ELEMENT: '78002360-f1bf-422c-afa5-3d52a16fe476'
+  }
+]
+2020-05-11T21:34:35.192Z INFO webdriver: COMMAND getElementText("56935663-efcd-40d1-a2a4-507ca01677b3")
+2020-05-11T21:34:35.193Z INFO webdriver: [GET] http://localhost:4723/session/94c9767b-d9d4-4aad-8cd8-7faaf86a8328/element/56935663-efcd-40d1-a2a4-507ca01677b3/text
+2020-05-11T21:34:35.227Z INFO webdriver: RESULT EXTENDABLE
+2020-05-11T21:34:35.228Z INFO webdriver: COMMAND getElementText("9cc57993-21e1-4f1f-b889-d055b331c1af")
+2020-05-11T21:34:35.228Z INFO webdriver: [GET] http://localhost:4723/session/94c9767b-d9d4-4aad-8cd8-7faaf86a8328/element/9cc57993-21e1-4f1f-b889-d055b331c1af/text
+2020-05-11T21:34:35.258Z INFO webdriver: RESULT Adding helper functions, or more complicated sets and combinations of existing commands is simple and really useful
+2020-05-11T21:34:35.258Z INFO webdriver: COMMAND getElementText("78002360-f1bf-422c-afa5-3d52a16fe476")
+2020-05-11T21:34:35.258Z INFO webdriver: [GET] http://localhost:4723/session/94c9767b-d9d4-4aad-8cd8-7faaf86a8328/element/78002360-f1bf-422c-afa5-3d52a16fe476/text
+2020-05-11T21:34:35.285Z INFO webdriver: RESULT 
+2020-05-11T21:34:35.288Z INFO webdriver: COMMAND findElement("accessibility id", "<Screenshot[base64]>")
+2020-05-11T21:34:35.288Z INFO webdriver: [POST] http://localhost:4723/session/94c9767b-d9d4-4aad-8cd8-7faaf86a8328/element
+2020-05-11T21:34:35.288Z INFO webdriver: DATA { using: 'accessibility id', value: 'Home' }
+2020-05-11T21:34:35.353Z INFO webdriver: RESULT {
+  'element-6066-11e4-a52e-4f735466cecf': '932bdeb5-70bd-449f-88eb-134f57e186f4',
+  ELEMENT: '932bdeb5-70bd-449f-88eb-134f57e186f4'
+}
+2020-05-11T21:34:35.354Z INFO webdriver: COMMAND isElementDisplayed("932bdeb5-70bd-449f-88eb-134f57e186f4")
+2020-05-11T21:34:35.355Z INFO webdriver: [GET] http://localhost:4723/session/94c9767b-d9d4-4aad-8cd8-7faaf86a8328/element/932bdeb5-70bd-449f-88eb-134f57e186f4/displayed
+2020-05-11T21:34:35.382Z INFO webdriver: RESULT true
+2020-05-11T21:34:35.383Z INFO webdriver: COMMAND findElement("accessibility id", "Swipe")
+2020-05-11T21:34:35.383Z INFO webdriver: [POST] http://localhost:4723/session/94c9767b-d9d4-4aad-8cd8-7faaf86a8328/element
+2020-05-11T21:34:35.383Z INFO webdriver: DATA { using: 'accessibility id', value: 'Swipe' }
+2020-05-11T21:34:35.455Z INFO webdriver: RESULT {
+  'element-6066-11e4-a52e-4f735466cecf': '6e9be599-5d55-45ed-9042-7c31e2a39bfb',
+  ELEMENT: '6e9be599-5d55-45ed-9042-7c31e2a39bfb'
+}
+2020-05-11T21:34:35.458Z INFO webdriver: COMMAND elementClick("6e9be599-5d55-45ed-9042-7c31e2a39bfb")
+2020-05-11T21:34:35.458Z INFO webdriver: [POST] http://localhost:4723/session/94c9767b-d9d4-4aad-8cd8-7faaf86a8328/element/6e9be599-5d55-45ed-9042-7c31e2a39bfb/click
+2020-05-11T21:34:35.505Z INFO webdriver: COMMAND findElement("accessibility id", "Swipe-screen")
+2020-05-11T21:34:35.505Z INFO webdriver: [POST] http://localhost:4723/session/94c9767b-d9d4-4aad-8cd8-7faaf86a8328/element
+2020-05-11T21:34:35.505Z INFO webdriver: DATA { using: 'accessibility id', value: 'Swipe-screen' }
+2020-05-11T21:34:35.584Z INFO webdriver: RESULT {
+  'element-6066-11e4-a52e-4f735466cecf': '6e00190c-e6a9-4eff-9c85-f849e89b7a78',
+  ELEMENT: '6e00190c-e6a9-4eff-9c85-f849e89b7a78'
+}
+2020-05-11T21:34:35.585Z INFO webdriver: COMMAND isElementDisplayed("6e00190c-e6a9-4eff-9c85-f849e89b7a78")
+2020-05-11T21:34:35.585Z INFO webdriver: [GET] http://localhost:4723/session/94c9767b-d9d4-4aad-8cd8-7faaf86a8328/element/6e00190c-e6a9-4eff-9c85-f849e89b7a78/displayed
+2020-05-11T21:34:35.616Z INFO webdriver: RESULT true
+2020-05-11T21:34:35.616Z INFO webdriver: COMMAND touchPerform(<object>)
+2020-05-11T21:34:35.617Z INFO webdriver: [POST] http://localhost:4723/session/94c9767b-d9d4-4aad-8cd8-7faaf86a8328/touch/perform
+2020-05-11T21:34:35.617Z INFO webdriver: DATA {
+  actions: [
+    { action: 'press', options: [Object] },
+    { action: 'wait', options: [Object] },
+    { action: 'moveTo', options: [Object] },
+    { action: 'release' }
+  ]
+}
+2020-05-11T21:34:37.969Z INFO webdriver: COMMAND touchPerform(<object>)
+2020-05-11T21:34:37.969Z INFO webdriver: [POST] http://localhost:4723/session/94c9767b-d9d4-4aad-8cd8-7faaf86a8328/touch/perform
+2020-05-11T21:34:37.969Z INFO webdriver: DATA {
+  actions: [
+    { action: 'press', options: [Object] },
+    { action: 'wait', options: [Object] },
+    { action: 'moveTo', options: [Object] },
+    { action: 'release' }
+  ]
+}
+2020-05-11T21:34:40.311Z INFO webdriver: COMMAND touchPerform(<object>)
+2020-05-11T21:34:40.311Z INFO webdriver: [POST] http://localhost:4723/session/94c9767b-d9d4-4aad-8cd8-7faaf86a8328/touch/perform
+2020-05-11T21:34:40.311Z INFO webdriver: DATA {
+  actions: [
+    { action: 'press', options: [Object] },
+    { action: 'wait', options: [Object] },
+    { action: 'moveTo', options: [Object] },
+    { action: 'release' }
+  ]
+}
+2020-05-11T21:34:42.622Z INFO webdriver: COMMAND touchPerform(<object>)
+2020-05-11T21:34:42.622Z INFO webdriver: [POST] http://localhost:4723/session/94c9767b-d9d4-4aad-8cd8-7faaf86a8328/touch/perform
+2020-05-11T21:34:42.622Z INFO webdriver: DATA {
+  actions: [
+    { action: 'press', options: [Object] },
+    { action: 'wait', options: [Object] },
+    { action: 'moveTo', options: [Object] },
+    { action: 'release' }
+  ]
+}
+2020-05-11T21:34:44.904Z INFO webdriver: COMMAND findElement("accessibility id", "<Screenshot[base64]>")
+2020-05-11T21:34:44.904Z INFO webdriver: [POST] http://localhost:4723/session/94c9767b-d9d4-4aad-8cd8-7faaf86a8328/element
+2020-05-11T21:34:44.904Z INFO webdriver: DATA { using: 'accessibility id', value: 'Carousel' }
+2020-05-11T21:34:45.256Z INFO webdriver: RESULT {
+  'element-6066-11e4-a52e-4f735466cecf': '026fc770-6f56-4579-8bb4-9ca7d05162bb',
+  ELEMENT: '026fc770-6f56-4579-8bb4-9ca7d05162bb'
+}
+2020-05-11T21:34:45.258Z INFO webdriver: COMMAND isElementDisplayed("026fc770-6f56-4579-8bb4-9ca7d05162bb")
+2020-05-11T21:34:45.258Z INFO webdriver: [GET] http://localhost:4723/session/94c9767b-d9d4-4aad-8cd8-7faaf86a8328/element/026fc770-6f56-4579-8bb4-9ca7d05162bb/displayed
+2020-05-11T21:34:45.287Z INFO webdriver: RESULT true
+2020-05-11T21:34:45.288Z INFO webdriver: COMMAND findElements("accessibility id", "<Screenshot[base64]>")
+2020-05-11T21:34:45.288Z INFO webdriver: [POST] http://localhost:4723/session/94c9767b-d9d4-4aad-8cd8-7faaf86a8328/elements
+2020-05-11T21:34:45.288Z INFO webdriver: DATA { using: 'accessibility id', value: 'card' }
+2020-05-11T21:34:45.835Z INFO webdriver: RESULT [
+  {
+    'element-6066-11e4-a52e-4f735466cecf': '8b8ce6fa-554e-4b38-ba6c-152a0e873432',
+    ELEMENT: '8b8ce6fa-554e-4b38-ba6c-152a0e873432'
+  },
+  {
+    'element-6066-11e4-a52e-4f735466cecf': 'b7b6957c-4f1a-4803-80d1-aac22e5c546e',
+    ELEMENT: 'b7b6957c-4f1a-4803-80d1-aac22e5c546e'
+  }
+]
+2020-05-11T21:34:45.838Z INFO webdriver: COMMAND findElementsFromElement("8b8ce6fa-554e-4b38-ba6c-152a0e873432", "xpath", "*//android.widget.TextView")
+2020-05-11T21:34:45.839Z INFO webdriver: [POST] http://localhost:4723/session/94c9767b-d9d4-4aad-8cd8-7faaf86a8328/element/8b8ce6fa-554e-4b38-ba6c-152a0e873432/elements
+2020-05-11T21:34:45.839Z INFO webdriver: DATA { using: 'xpath', value: '*//android.widget.TextView' }
+2020-05-11T21:34:45.952Z INFO webdriver: RESULT [
+  {
+    'element-6066-11e4-a52e-4f735466cecf': '3efed0c1-e348-4b94-ad13-54bc163b7f38',
+    ELEMENT: '3efed0c1-e348-4b94-ad13-54bc163b7f38'
+  },
+  {
+    'element-6066-11e4-a52e-4f735466cecf': 'cba28b88-388c-4e2b-b074-1de6650bcd58',
+    ELEMENT: 'cba28b88-388c-4e2b-b074-1de6650bcd58'
+  },
+  {
+    'element-6066-11e4-a52e-4f735466cecf': '36910e6e-35f8-489d-bc94-7a8ed3fa517c',
+    ELEMENT: '36910e6e-35f8-489d-bc94-7a8ed3fa517c'
+  }
+]
+2020-05-11T21:34:45.956Z INFO webdriver: COMMAND getElementText("3efed0c1-e348-4b94-ad13-54bc163b7f38")
+2020-05-11T21:34:45.956Z INFO webdriver: [GET] http://localhost:4723/session/94c9767b-d9d4-4aad-8cd8-7faaf86a8328/element/3efed0c1-e348-4b94-ad13-54bc163b7f38/text
+2020-05-11T21:34:45.988Z INFO webdriver: RESULT FULLY OPEN SOURCE
+2020-05-11T21:34:45.990Z INFO webdriver: COMMAND getElementText("cba28b88-388c-4e2b-b074-1de6650bcd58")
+2020-05-11T21:34:45.991Z INFO webdriver: [GET] http://localhost:4723/session/94c9767b-d9d4-4aad-8cd8-7faaf86a8328/element/cba28b88-388c-4e2b-b074-1de6650bcd58/text
+2020-05-11T21:34:46.019Z INFO webdriver: RESULT WebdriverIO is fully open source and can be found on GitHub
+2020-05-11T21:34:46.019Z INFO webdriver: COMMAND getElementText("36910e6e-35f8-489d-bc94-7a8ed3fa517c")
+2020-05-11T21:34:46.019Z INFO webdriver: [GET] http://localhost:4723/session/94c9767b-d9d4-4aad-8cd8-7faaf86a8328/element/36910e6e-35f8-489d-bc94-7a8ed3fa517c/text
+2020-05-11T21:34:46.048Z INFO webdriver: RESULT 
+2020-05-11T21:34:46.060Z INFO webdriver: COMMAND getLogTypes()
+2020-05-11T21:34:46.060Z INFO webdriver: [GET] http://localhost:4723/session/94c9767b-d9d4-4aad-8cd8-7faaf86a8328/log/types
+2020-05-11T21:34:46.062Z INFO webdriver: RESULT [ 'logcat', 'bugreport', 'server' ]
+2020-05-11T21:34:46.063Z DEBUG @wdio/runner: Fetching logs for logcat, bugreport, server
+2020-05-11T21:34:46.063Z INFO webdriver: COMMAND getLogs("logcat")
+2020-05-11T21:34:46.063Z INFO webdriver: [POST] http://localhost:4723/session/94c9767b-d9d4-4aad-8cd8-7faaf86a8328/log
+2020-05-11T21:34:46.063Z INFO webdriver: DATA { type: 'logcat' }
+2020-05-11T21:34:46.063Z INFO webdriver: COMMAND getLogs("server")
+2020-05-11T21:34:46.063Z INFO webdriver: [POST] http://localhost:4723/session/94c9767b-d9d4-4aad-8cd8-7faaf86a8328/log
+2020-05-11T21:34:46.063Z INFO webdriver: DATA { type: 'server' }
+2020-05-11T21:34:46.064Z INFO webdriver: COMMAND getLogs("bugreport")
+2020-05-11T21:34:46.064Z INFO webdriver: [POST] http://localhost:4723/session/94c9767b-d9d4-4aad-8cd8-7faaf86a8328/log
+2020-05-11T21:34:46.064Z INFO webdriver: DATA { type: 'bugreport' }
+2020-05-11T21:34:46.171Z INFO webdriver: RESULT [
+  {
+    timestamp: 1589232839033,
+    level: 'ALL',
+    message: '05-12 03:00:01.825  2036  2036 D KeyguardViewMediator: handleNotifyFinishedGoingToSleep'
+  },
+  {
+    timestamp: 1589232839033,
+    level: 'ALL',
+    message: '05-12 03:00:01.826  2036  2036 V KeyguardStatusView: Schedule setEnableMarquee: Disable'
+  },
+  {
+    timestamp: 1589232839033,
+    level: 'ALL',
+    message: '05-12 03:00:01.826  2036  2036 V KeyguardStatusView: Disable transport text marquee'
+  },
+  {
+    timestamp: 1589232839033,
+    level: 'ALL',
+    message: '05-12 03:00:01.834  2036  2036 D KeyguardUpdateMonitor: shouldListen: visible= false, interactive= false, bouncer= false, goingToSleep= false, assist=false, occluded=false, dream=false, switchingUser= false, alreadyAuthenticated= false, away= false, disabled= false, camera= false, pocket= 0, lidOpen= true, imeShow= false, prevent:true, prevent Active:false, facelock type:0, isKeyguardDone:true, fakeLocking:true, screenOff:true, mScreenOn:false, allow:true, screenTurningOn:false, qsExpanded:false, shutingDown:false'
+  },
+  {
+    timestamp: 1589232839033,
+    level: 'ALL',
+    message: '05-12 03:00:01.836  2036  2036 D KeyguardUpdateMonitor: updateFPState: shouldListen = true, running = 0, lockout:false'
+  },
+  {
+    timestamp: 1589232839035,
+    level: 'ALL',
+    message: '05-12 03:00:01.839  2036  2036 V KeyguardUpdateMonitor: startListeningForFingerprint , enabled=false, id=0'
+  },
+  {
+    timestamp: 1589232839035,
+    level: 'ALL',
+    message: '05-12 03:00:01.843  2036  2036 D StatusBar: hideKeyguardImpl'
+  },
+  {
+    timestamp: 1589232839035,
+    level: 'ALL',
+    message: '05-12 03:00:01.843  2036  2036 D StatusBarWindowManager: applyFocusableFlag: false, false, false, 81840048'
+  },
+  {
+    timestamp: 1589232839035,
+    level: 'ALL',
+    message: '05-12 03:00:01.844  2036  2036 D StatusBar: useDarkText:false, lockDarkText:false, useDarkTheme:false'
+  },
+  {
+    timestamp: 1589232839035,
+    level: 'ALL',
+    message: '05-12 03:00:01.844  2036  2036 D PanelView: instantCollapse: mExpanding = false, mInstantExpanding = false'
+  },
+  {
+    timestamp: 1589232839035,
+    level: 'ALL',
+    message: '05-12 03:00:01.844  2036  2036 D StatusBar: updateKeyguardState: false, false, show:false, occludefalse, state:0'
+  },
+  {
+    timestamp: 1589232839035,
+    level: 'ALL',
+    message: '05-12 03:00:01.848  2036  2036 D StatusBar: useDarkText:false, lockDarkText:false, useDarkTheme:false'
+  },
+  {
+    timestamp: 1589232839035,
+    level: 'ALL',
+    message: '05-12 03:00:01.873  2036  2036 I StatusBar: updateScrimController isInLaunchTransition:false mBouncerShowing:false isKeyguardDone:true mVisible:false isSecure:false isLaunchDial:false'
+  },
+  {
+    timestamp: 1589232839035,
+    level: 'ALL',
+    message: '05-12 03:00:01.874  2036  2036 D StatusBar: updateMediaMetaData: hasArtwork = true, mState:0, false, mDozing:false, delay:0, true, vis:8, alpha:1.0, false, meta:false, fading:false, 0, false'
+  },
+  {
+    timestamp: 1589232839035,
+    level: 'ALL',
+    message: '05-12 03:00:01.874  2036  2036 D QSPanel : refreshAllTiles'
+  },
+  {
+    timestamp: 1589232839035,
+    level: 'ALL',
+    message: '05-12 03:00:01.884  1505  1924 I chatty  : uid=1000(system) WifiStateMachin expire 1 line'
+  },
+  {
+    timestamp: 1589232839037,
+    level: 'ALL',
+    message: '05-12 03:00:01.886   548   548 D qdlights: set_speaker_light_locked mode 1, colorRGB=FF400090, onMS=2000, offMS=2000'
+  },
+  {
+    timestamp: 1589232839037,
+    level: 'ALL',
+    message: '05-12 03:00:01.887   548   548 E qdlights: shankai555 buffer value  00 01 02 04 05 07 08 0b 0d 10 15'
+  },
+  {
+    timestamp: 1589232839037,
+    level: 'ALL',
+    message: '05-12 03:00:01.887   548   548 E qdlights: shankai555 buffer value  00 01 02 04 05 07 08 0b 0d 10 15'
+  },
+  {
+    timestamp: 1589232839037,
+    level: 'ALL',
+    message: '05-12 03:00:01.891  2036  2046 I ndroid.systemu: NativeAlloc concurrent copying GC freed 12023(469KB) AllocSpace objects, 1(20KB) LOS objects, 50% free, 23MB/46MB, paused 678us total 504.064ms'
+  },
+  {
+    timestamp: 1589232839037,
+    level: 'ALL',
+    message: '05-12 03:00:01.893   608   608 D AudioFlinger: setParameters(): io 0, keyvalue screen_state=off, calling pid 1505 calling uid 1000'
+  },
+  {
+    timestamp: 1589232839037,
+    level: 'ALL',
+    message: '05-12 03:00:01.894   531   531 D audio_hw_primary: adev_set_parameters: enter: screen_state=off'
+  },
+  {
+    timestamp: 1589232839037,
+    level: 'ALL',
+    message: '05-12 03:00:01.895   531   531 D audio_hw_extn: audio_extn_set_anc_parameters: anc_enabled:0'
+  },
+  {
+    timestamp: 1589232839037,
+    level: 'ALL',
+    message: '05-12 03:00:01.895   531   531 D audio_hw_spkr_prot: audio_extn_fbsp_set_parameters: Speaker protection disabled'
+  },
+  {
+    timestamp: 1589232839037,
+    level: 'ALL',
+    message: '05-12 03:00:01.902  1505  1690 I chatty  : uid=1000(system) android.bg expire 1 line'
+  },
+  {
+    timestamp: 1589232839037,
+    level: 'ALL',
+    message: '05-12 03:00:01.907  2018  2018 I DeviceStatusMonitor: DeviceStatusMonitor$1.onReceive():51 onReceive() : Action = android.intent.action.SCREEN_OFF'
+  },
+  {
+    timestamp: 1589232839037,
+    level: 'ALL',
+    message: '05-12 03:00:01.907  2036  2259 D Tile.DataSwitchTile(4e47f3b): default data phone id=0'
+  },
+  {
+    timestamp: 1589232839037,
+    level: 'ALL',
+    message: '05-12 03:00:01.907  2036  2259 D Tile.DataSwitchTile(4e47f3b): DataSwitchTile:updateSimCount:simState=LOADED,LOADED'
+  },
+  {
+    timestamp: 1589232839037,
+    level: 'ALL',
+    message: '05-12 03:00:01.907  2036  2259 D Tile.DataSwitchTile(4e47f3b): DataSwitchTile:updateSimCount:mSimCount=2'
+  },
+  {
+    timestamp: 1589232839039,
+    level: 'ALL',
+    message: '05-12 03:00:01.908  2018  2018 I InputBundle: InputBundle.consumeEvent():933 Skip consuming an event as imeStatus is 0'
+  },
+  {
+    timestamp: 1589232839039,
+    level: 'ALL',
+    message: '05-12 03:00:01.910  2018  2018 I DeviceStatusMonitor: DeviceStatusMonitor.updateCountryInfo():111 updateCountryInfo(), notifyAnyway = false'
+  },
+  {
+    timestamp: 1589232839039,
+    level: 'ALL',
+    message: '05-12 03:00:01.932  2036  2036 I vol.Events: writeEvent dismiss_dialog screen_off'
+  },
+  {
+    timestamp: 1589232839039,
+    level: 'ALL',
+    message: '05-12 03:00:01.965  3503  3503 D StateManager: gotoState# fromState=NORMAL, toState=NORMAL'
+  },
+  {
+    timestamp: 1589232839039,
+    level: 'ALL',
+    message: '05-12 03:00:01.967  1505  4278 I chatty  : uid=1000(system) IzatProvider expire 3 lines'
+  },
+  {
+    timestamp: 1589232839040,
+    level: 'ALL',
+    message: '05-12 03:00:01.967   572   572 V LocSvc_HIDL_IzatSubscription: [screenStatusUpdate][575] [HS] <<<<= [HC]'
+  },
+  {
+    timestamp: 1589232839040,
+    level: 'ALL',
+    message: '05-12 03:00:01.980  2684  5586 I NearbyDiscovery: FastPairHandler: Received action android.intent.action.SCREEN_OFF [CONTEXT service_id=49 ]'
+  },
+  {
+    timestamp: 1589232839040,
+    level: 'ALL',
+    message: '05-12 03:00:01.982  2684  5586 I NearbyDiscovery: FastPairScanner2: Stopping scan [CONTEXT service_id=49 ]'
+  },
+  {
+    timestamp: 1589232839040,
+    level: 'ALL',
+    message: '05-12 03:00:01.982  2684  5586 D BluetoothAdapter: isLeEnabled(): OFF'
+  },
+  {
+    timestamp: 1589232839040,
+    level: 'ALL',
+    message: '05-12 03:00:02.014  2684  1664 E SensorManager: registerListenerImpl sensorName:LSM6DS3 Gyroscope,isWakeUpSensor:false,callingApp: com.google.uid.shared:10010,callingPid:2684,callingUid:10010'
+  },
+  {
+    timestamp: 1589232839040,
+    level: 'ALL',
+    message: '05-12 03:00:02.016   685   700 E Sensors : sns_reg_la.c(85):reg read: offset 2304, num bytes: 1'
+  },
+  {
+    timestamp: 1589232839040,
+    level: 'ALL',
+    message: '05-12 03:00:02.025  2684  1664 E SensorManager: registerListenerImpl sensorName:LSM6DS3 Accelerometer,isWakeUpSensor:false,callingApp: com.google.uid.shared:10010,callingPid:2684,callingUid:10010'
+  },
+  {
+    timestamp: 1589232839040,
+    level: 'ALL',
+    message: '05-12 03:00:02.026   685   700 E Sensors : sns_reg_la.c(85):reg read: offset 2304, num bytes: 1'
+  },
+  {
+    timestamp: 1589232839040,
+    level: 'ALL',
+    message: '05-12 03:00:02.035  2224  2224 D DPMJ    : |SERVICE| DPM received action android.intent.action.SCREEN_OFF'
+  },
+  {
+    timestamp: 1589232839069,
+    level: 'ALL',
+    message: '05-12 03:00:02.030  1665  1665 W iptables-wrappe: type=1400 audit(0.0:10054): avc: denied { read write } for path="/dev/diag" dev="tmpfs" ino=495 scontext=u:r:netutils_wrapper:s0 tcontext=u:object_r:diag_device:s0 tclass=chr_file permissive=0'
+  },
+  {
+    timestamp: 1589232839069,
+    level: 'ALL',
+    message: '05-12 03:00:02.109  1657  2019 D Screen_Off: user switch is false'
+  },
+  {
+    timestamp: 1589232839069,
+    level: 'ALL',
+    message: '05-12 03:00:02.126 10945 10945 D AbstractProcessor: onScreenOff'
+  },
+  {
+    timestamp: 1589232839069,
+    level: 'ALL',
+    message: '05-12 03:00:02.126 10945 10945 D AbstractProcessor: scheduleAlarmService'
+  },
+  {
+    timestamp: 1589232839069,
+    level: 'ALL',
+    message: '05-12 03:00:02.134  1657  1762 I cm.log.servpro: [DDDDDDDD][D]/ start checkBgScan, isCheckDeviceState=false'
+  },
+  {
+    timestamp: 1589232839069,
+    level: 'ALL',
+    message: '05-12 03:00:02.135  1657  1762 I cm.log.servpro: [DDDDDDDD][D]/ start checkBgScan, condition ok'
+  },
+  {
+    timestamp: 1589232839069,
+    level: 'ALL',
+    message: '05-12 03:00:02.136  1657  1762 I cm.log.servpro: [DDDDDDDD][D]/ isOnTimeFuncSpecialAppsScan(), junk_scan_bg_special_apps_switch=false'
+  },
+  {
+    timestamp: 1589232839069,
+    level: 'ALL',
+    message: '05-12 03:00:02.130  1667  1667 W ip6tables-wrapp: type=1400 audit(0.0:10055): avc: denied { read write } for path="/dev/diag" dev="tmpfs" ino=495 scontext=u:r:netutils_wrapper:s0 tcontext=u:object_r:diag_device:s0 tclass=chr_file permissive=0'
+  },
+  {
+    timestamp: 1589232839069,
+    level: 'ALL',
+    message: "05-12 03:00:02.160  2684  2684 I BeaconBle: Using BLE 'L' hardware layer"
+  },
+  {
+    timestamp: 1589232839069,
+    level: 'ALL',
+    message: '05-12 03:00:02.162 27678 27766 I TestRunner: finished: startServer(io.appium.uiautomator2.server.test.AppiumUiAutomator2Server)'
+  },
+  {
+    timestamp: 1589232839069,
+    level: 'ALL',
+    message: '05-12 03:00:02.174 27678 27678 I MonitoringInstr: Activities that are still in CREATED to STOPPED: 0'
+  },
+  {
+    timestamp: 1589232839069,
+    level: 'ALL',
+    message: '05-12 03:00:02.175 27678 27766 I TestRunner: run finished: 1 tests, 0 failed, 0 ignored'
+  },
+  {
+    timestamp: 1589232839069,
+    level: 'ALL',
+    message: '05-12 03:00:02.193  1657  2019 D ChargingStatusReceiver: onReceive() for android.intent.action.SCREEN_OFF'
+  },
+  {
+    timestamp: 1589232839069,
+    level: 'ALL',
+    message: '05-12 03:00:02.195  1657  1762 I cm.log.servpro: [ChargingStatusReceiver][D]/ onReceive() for android.intent.action.SCREEN_OFF'
+  },
+  {
+    timestamp: 1589232839069,
+    level: 'ALL',
+    message: '05-12 03:00:02.199 27678 27766 D NetworkSecurityConfig: No Network Security Config specified, using platform default'
+  },
+  {
+    timestamp: 1589232839069,
+    level: 'ALL',
+    message: '05-12 03:00:02.200 27678 27766 I DpmTcmClient: RegisterTcmMonitor from: $Proxy0'
+  },
+  {
+    timestamp: 1589232839069,
+    level: 'ALL',
+    message: '05-12 03:00:02.202  1657  1668 D junk engine 64: e.a int 一个参数 :0'
+  },
+  {
+    timestamp: 1589232839069,
+    level: 'ALL',
+    message: '05-12 03:00:02.202  1657  1668 D junk engine 64: e.a int 一个参数 :0'
+  },
+  {
+    timestamp: 1589232839069,
+    level: 'ALL',
+    message: '05-12 03:00:02.204 27678  1669 I DpmTcmClient: connected to TCM'
+  },
+  {
+    timestamp: 1589232839069,
+    level: 'ALL',
+    message: '05-12 03:00:02.230  1678  1678 W iptables-wrappe: type=1400 audit(0.0:10056): avc: denied { read write } for path="/dev/diag" dev="tmpfs" ino=495 scontext=u:r:netutils_wrapper:s0 tcontext=u:object_r:diag_device:s0 tclass=chr_file permissive=0'
+  },
+  {
+    timestamp: 1589232839069,
+    level: 'ALL',
+    message: '05-12 03:00:02.249  1505  1873 I chatty  : uid=1000(system) Binder:1505_3 expire 1 line'
+  },
+  {
+    timestamp: 1589232839069,
+    level: 'ALL',
+    message: '05-12 03:00:02.330  1683  1683 W ip6tables-wrapp: type=1400 audit(0.0:10057): avc: denied { read write } for path="/dev/diag" dev="tmpfs" ino=495 scontext=u:r:netutils_wrapper:s0 tcontext=u:object_r:diag_device:s0 tclass=chr_file permissive=0'
+  },
+  {
+    timestamp: 1589232839069,
+    level: 'ALL',
+    message: '05-12 03:00:02.790 27678 27766 I MonitoringInstr: waitForActivitiesToComplete() took: 0ms'
+  },
+  {
+    timestamp: 1589232839069,
+    level: 'ALL',
+    message: '05-12 03:00:02.790 27678 27678 I MonitoringInstr: Activities that are still in CREATED to STOPPED: 0'
+  },
+  {
+    timestamp: 1589232839069,
+    level: 'ALL',
+    message: '05-12 03:00:02.798  1505  1873 W WindowManager: removeWindowToken: Attempted to remove non-existing token: android.os.Binder@f99a5df'
+  },
+  {
+    timestamp: 1589232839069,
+    level: 'ALL',
+    message: '05-12 03:00:02.802  1505  1505 V SettingsProvider: Notifying for 0: content://settings/secure/accessibility_enabled'
+  },
+  {
+    timestamp: 1589232839069,
+    level: 'ALL',
+    message: '05-12 03:00:02.814  1505  2022 I ActivityManager: Force stopping io.appium.uiautomator2.server appid=10450 user=0: finished inst'
+  },
+  {
+    timestamp: 1589232839069,
+    level: 'ALL',
+    message: '05-12 03:00:02.814  1505  2022 I ActivityManager: Killing 27678:io.appium.uiautomator2.server/u0a450 (adj 0): stop io.appium.uiautomator2.server'
+  },
+  {
+    timestamp: 1589232839069,
+    level: 'ALL',
+    message: '05-12 03:00:02.819  1505  1710 I chatty  : uid=1000(system) ActivityManager expire 5 lines'
+  },
+  {
+    timestamp: 1589232839069,
+    level: 'ALL',
+    message: '05-12 03:00:02.819  1505  1702 I chatty  : uid=1000 system_server expire 1 line'
+  },
+  {
+    timestamp: 1589232839069,
+    level: 'ALL',
+    message: '05-12 03:00:02.822 27537 27537 D AndroidRuntime: Shutting down VM'
+  },
+  {
+    timestamp: 1589232839069,
+    level: 'ALL',
+    message: '05-12 03:00:02.903   869   869 I Zygote  : Process 27678 exited due to signal (9)'
+  },
+  {
+    timestamp: 1589232839069,
+    level: 'ALL',
+    message: '05-12 03:00:02.987  1505  1505 V SettingsProvider: Notifying for 0: content://settings/global/hidden_api_policy_pre_p_apps'
+  },
+  {
+    timestamp: 1589232839069,
+    level: 'ALL',
+    message: '05-12 03:00:03.021  1505  1505 V SettingsProvider: Notifying for 0: content://settings/global/hidden_api_policy_p_apps'
+  },
+  {
+    timestamp: 1589232839069,
+    level: 'ALL',
+    message: '05-12 03:00:03.055  1505  1505 V SettingsProvider: Notifying for 0: content://settings/global/hidden_api_policy'
+  },
+  {
+    timestamp: 1589232839069,
+    level: 'ALL',
+    message: '05-12 03:00:03.217  3503  3503 D NotificationListener: onNotificationRemoved# hash: 249997538 sbn: StatusBarNotification(pkg=com.cleanmaster.security user=UserHandle{0} id=1 tag=null key=0|com.cleanmaster.security|1|null|10096: Notification(channel=cms_channel_id_normal pri=0 contentView=null vibrate=null sound=null defaults=0x0 flags=0x72 color=0x00000000 vis=PRIVATE))'
+  },
+  {
+    timestamp: 1589232839069,
+    level: 'ALL',
+    message: '05-12 03:00:03.237  2036  2036 D StatusBar: updateMediaMetaData: hasArtwork = true, mState:0, false, mDozing:false, delay:0, true, vis:8, alpha:1.0, false, meta:false, fading:false, 0, false'
+  },
+  {
+    timestamp: 1589232839072,
+    level: 'ALL',
+    message: "05-12 03:00:04.037  1066  1066 E adbd    : failed to connect to socket 'tcp:6790': Connection refused"
+  },
+  {
+    timestamp: 1589232839072,
+    level: 'ALL',
+    message: '05-12 03:00:04.513  1505  1891 V AlarmManager: Triggering alarm #0: 3 when =64680000 package =android operation = null listenTag =*job.heartbeat* flags =0x9'
+  },
+  {
+    timestamp: 1589232839072,
+    level: 'ALL',
+    message: '05-12 03:00:05.060  1760  1760 W df      : type=1400 audit(0.0:10058): avc: denied { getattr } for name="/" dev="sde11" ino=1 scontext=u:r:dumpstate:s0 tcontext=u:object_r:firmware_file:s0 tclass=filesystem permissive=0'
+  },
+  {
+    timestamp: 1589232839072,
+    level: 'ALL',
+    message: '05-12 03:00:05.060  1760  1760 W df      : type=1400 audit(0.0:10059): avc: denied { getattr } for name="/" dev="sde23" ino=1 scontext=u:r:dumpstate:s0 tcontext=u:object_r:bt_firmware_file:s0 tclass=filesystem permissive=0'
+  },
+  {
+    timestamp: 1589232839072,
+    level: 'ALL',
+    message: "05-12 03:00:05.094  1761  1761 D dumpstate: execvp on command 'parse_radio_log /proc/last_radio_log' failed (error: Permission denied)"
+  },
+  {
+    timestamp: 1589232839072,
+    level: 'ALL',
+    message: "05-12 03:00:05.100 32522 32522 E dumpstate: *** command 'parse_radio_log /proc/last_radio_log' failed: exit code 1"
+  },
+  {
+    timestamp: 1589232839072,
+    level: 'ALL',
+    message: '05-12 03:00:05.421 32522 32522 E dumpstate: No IDumpstateDevice implementation'
+  },
+  {
+    timestamp: 1589232839072,
+    level: 'ALL',
+    message: '05-12 03:00:06.331  1505  1891 V AlarmManager: Triggering alarm #0: 2 when =64681818 package =com.android.systemui operation =*walarm*:com.android.internal.policy.impl.PhoneWindowManager.DELAYED_KEYGUARD flags =0x9'
+  },
+  {
+    timestamp: 1589232839072,
+    level: 'ALL',
+    message: "05-12 03:00:07.377  1066  1066 E adbd    : failed to connect to socket 'tcp:6790': Connection refused"
+  },
+  {
+    timestamp: 1589232839072,
+    level: 'ALL',
+    message: '05-12 03:00:08.913  1505  4909 D RestartProcessManager: Start to rank all packages'
+  },
+  {
+    timestamp: 1589232839072,
+    level: 'ALL',
+    message: '05-12 03:00:08.914  1505  4909 D RestartProcessManager: updateSelf :  cris.icms.ntes, size : 30'
+  },
+  {
+    timestamp: 1589232839072,
+    level: 'ALL',
+    message: '05-12 03:00:08.914  1505  4909 D RestartProcessManager: updateSelf :  com.olacabs.customer, size : 30'
+  },
+  {
+    timestamp: 1589232839072,
+    level: 'ALL',
+    message: '05-12 03:00:08.914  1505  4909 D RestartProcessManager: updateSelf :  nps.nps, size : 30'
+  },
+  {
+    timestamp: 1589232839072,
+    level: 'ALL',
+    message: '05-12 03:00:08.914  1505  4909 D RestartProcessManager: updateSelf :  com.disha.quickride, size : 30'
+  },
+  {
+    timestamp: 1589232839072,
+    level: 'ALL',
+    message: '05-12 03:00:08.914  1505  4909 D RestartProcessManager: updateSelf :  com.paytm.paywith, size : 30'
+  },
+  {
+    timestamp: 1589232839072,
+    level: 'ALL',
+    message: '05-12 03:00:08.914  1505  4909 D RestartProcessManager: updateSelf :  com.ubercab, size : 30'
+  },
+  {
+    timestamp: 1589232839072,
+    level: 'ALL',
+    message: '05-12 03:00:08.914  1505  4909 D RestartProcessManager: updateSelf :  aero.aai.airsewa, size : 30'
+  },
+  {
+    timestamp: 1589232839072,
+    level: 'ALL',
+    message: '05-12 03:00:08.914  1505  4909 D RestartProcessManager: updateSelf :  com.cleanmaster.mguard, size : 30'
+  },
+  {
+    timestamp: 1589232839072,
+    level: 'ALL',
+    message: '05-12 03:00:08.914  1505  4909 D RestartProcessManager: updateSelf :  com.phonepe.app, size : 30'
+  },
+  {
+    timestamp: 1589232839072,
+    level: 'ALL',
+    message: '05-12 03:00:08.914  1505  4909 D RestartProcessManager: updateSelf :  com.bv.wifisync, size : 30'
+  },
+  ... 9900 more items
+]
+2020-05-11T21:34:46.229Z DEBUG webdriver: request failed due to response error: unknown error
+2020-05-11T21:34:46.230Z WARN webdriver: Request failed with status 500 due to An unknown server-side error occurred while processing the command. Original error: Potentially insecure feature 'get_server_logs' has not been enabled. If you want to enable this feature and accept the security ramifications, please do so by following the documented instructions at https://github.com/appium/appium/blob/master/docs/en/writing-running-appium/security.md
+2020-05-11T21:34:46.230Z INFO webdriver: Retrying 1/3
+2020-05-11T21:34:46.230Z INFO webdriver: [POST] http://localhost:4723/session/94c9767b-d9d4-4aad-8cd8-7faaf86a8328/log
+2020-05-11T21:34:46.230Z INFO webdriver: DATA { type: 'server' }
+2020-05-11T21:34:50.715Z DEBUG webdriver: request failed due to response error: unknown error
+2020-05-11T21:34:50.715Z WARN webdriver: Request failed with status 500 due to An unknown server-side error occurred while processing the command. Original error: Error executing adbExec. Original error: 'Command ''C:\\Users\\Paramveer Singh\\automation\\env_setup\\sdk-tools-windows-4333796\\platform-tools\\adb.exe' -P 5037 -s 468087f4 bugreport' exited with code 4294967295'; Stderr: 'adb: device failed to take a zipped bugreport: Bugreport read terminated abnormally (Connection reset by peer)'; Code: '4294967295'
+2020-05-11T21:34:50.715Z INFO webdriver: Retrying 1/3
+2020-05-11T21:34:50.715Z INFO webdriver: [POST] http://localhost:4723/session/94c9767b-d9d4-4aad-8cd8-7faaf86a8328/log
+2020-05-11T21:34:50.715Z INFO webdriver: DATA { type: 'bugreport' }
+2020-05-11T21:34:50.716Z DEBUG webdriver: request failed due to response error: unknown error
+2020-05-11T21:34:50.716Z WARN webdriver: Request failed with status 500 due to An unknown server-side error occurred while processing the command. Original error: Potentially insecure feature 'get_server_logs' has not been enabled. If you want to enable this feature and accept the security ramifications, please do so by following the documented instructions at https://github.com/appium/appium/blob/master/docs/en/writing-running-appium/security.md
+2020-05-11T21:34:50.716Z INFO webdriver: Retrying 2/3
+2020-05-11T21:34:50.716Z INFO webdriver: [POST] http://localhost:4723/session/94c9767b-d9d4-4aad-8cd8-7faaf86a8328/log
+2020-05-11T21:34:50.716Z INFO webdriver: DATA { type: 'server' }
+2020-05-11T21:36:20.721Z WARN webdriver: Request timed out! Consider increasing the "connectionRetryTimeout" option.
+2020-05-11T21:36:20.721Z INFO webdriver: Retrying 2/3
+2020-05-11T21:36:20.721Z INFO webdriver: [POST] http://localhost:4723/session/94c9767b-d9d4-4aad-8cd8-7faaf86a8328/log
+2020-05-11T21:36:20.721Z INFO webdriver: DATA { type: 'bugreport' }
+2020-05-11T21:36:20.722Z WARN webdriver: Request timed out! Consider increasing the "connectionRetryTimeout" option.
+2020-05-11T21:36:20.722Z INFO webdriver: Retrying 3/3
+2020-05-11T21:36:20.722Z INFO webdriver: [POST] http://localhost:4723/session/94c9767b-d9d4-4aad-8cd8-7faaf86a8328/log
+2020-05-11T21:36:20.722Z INFO webdriver: DATA { type: 'server' }
+2020-05-11T21:36:51.233Z DEBUG webdriver: request failed due to response error: unknown error
+2020-05-11T21:36:51.233Z WARN webdriver: Request failed with status 500 due to An unknown server-side error occurred while processing the command. Original error: Error executing adbExec. Original error: 'Command ''C:\\Users\\Paramveer Singh\\automation\\env_setup\\sdk-tools-windows-4333796\\platform-tools\\adb.exe' -P 5037 -s 468087f4 bugreport' exited with code 4294967295'; Stderr: 'adb: device failed to take a zipped bugreport: Bugreport read terminated abnormally (Connection reset by peer)'; Code: '4294967295'
+2020-05-11T21:36:51.233Z INFO webdriver: Retrying 3/3
+2020-05-11T21:36:51.233Z INFO webdriver: [POST] http://localhost:4723/session/94c9767b-d9d4-4aad-8cd8-7faaf86a8328/log
+2020-05-11T21:36:51.233Z INFO webdriver: DATA { type: 'bugreport' }
+2020-05-11T21:36:51.234Z DEBUG webdriver: request failed due to response error: unknown error
+2020-05-11T21:36:51.234Z ERROR webdriver: Request failed with status 500 due to unknown error: An unknown server-side error occurred while processing the command. Original error: Potentially insecure feature 'get_server_logs' has not been enabled. If you want to enable this feature and accept the security ramifications, please do so by following the documented instructions at https://github.com/appium/appium/blob/master/docs/en/writing-running-appium/security.md
+2020-05-11T21:36:51.234Z WARN @wdio/runner: Couldn't fetch logs for server: An unknown server-side error occurred while processing the command. Original error: Potentially insecure feature 'get_server_logs' has not been enabled. If you want to enable this feature and accept the security ramifications, please do so by following the documented instructions at https://github.com/appium/appium/blob/master/docs/en/writing-running-appium/security.md
+2020-05-11T21:37:03.515Z INFO @wdio/local-runner: Received SIGINT, giving process 5000ms to shutdown gracefully
+2020-05-11T21:37:03.518Z INFO @wdio/local-runner: Run worker command: endSession
+2020-05-11T21:37:03.519Z INFO webdriver: COMMAND deleteSession()
+2020-05-11T21:37:03.519Z INFO webdriver: [DELETE] http://localhost:4723/session/94c9767b-d9d4-4aad-8cd8-7faaf86a8328
+2020-05-11T21:37:03.531Z DEBUG webdriver: request failed due to response error: unknown error
+2020-05-11T21:37:03.531Z ERROR webdriver: Request failed with status 500 due to unknown error: An unknown server-side error occurred while processing the command. Original error: The process has received SIGINT signal
+2020-05-11T21:37:03.534Z WARN @wdio/runner: Couldn't fetch logs for bugreport: An unknown server-side error occurred while processing the command. Original error: The process has received SIGINT signal
+2020-05-11T21:37:03.534Z INFO webdriver: COMMAND deleteSession()
+2020-05-11T21:37:03.534Z INFO webdriver: [DELETE] http://localhost:4723/session/94c9767b-d9d4-4aad-8cd8-7faaf86a8328
