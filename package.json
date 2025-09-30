@@ -42,7 +42,7 @@
   "chai-as-promised": "^7.1.1",
   "graceful-fs": "^4.1.4",
   "grunt": "^1.0.4",
-  "lodash": "^4.17.15",
+  "lodash": "^4.17.21",
   "node-excel-to-json": "0.0.3",
   "underscore": "^1.10.2",
   "wdio-json-reporter": "^2.0.0",
