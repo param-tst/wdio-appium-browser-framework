@@ -36,7 +36,7 @@
   "@wdio/junit-reporter": "6.1.9",
   "wdio-native-app-compare-service": "1.2.0",
   "allure-commandline": "^2.13.0",
-  "appium": "^1.15.1",
+  "appium": "^1.22.3",
   "assert": "^2.0.0",
   "chai": "^4.2.0",
   "chai-as-promised": "^7.1.1",
@@ -66,7 +66,7 @@
   "grunt-cli": "^1.3.2",
   "grunt-cucumberjs": "^2.0.2",
   "node-uuid": "^1.4.7",
-  "selenium-standalone": "^6.17.0"
+  "selenium-standalone": "^6.24.0"
  },
  "babel": {
   "presets": [
